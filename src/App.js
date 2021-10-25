@@ -4,7 +4,7 @@ function App() {
     <div>
       <header className="header">
         <div className="row">
-
+          novi red
         </div>
       </header>
     </div>
