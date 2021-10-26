@@ -1,53 +1,28 @@
-/* -----COLORS----- */
-:root {
-  --color-accent-blue: #109cf1;
-  --color-yellow: #ffb946;
-  --color-red: #f7685b;
-  --color-green: #2ed47a;
-  --color-purple: #885af8;
-
-  --color-table-black: #323c47;
-  --color-black: #192a3e;
-
-  --color-table-gray: #707683;
-  --color-dark-blue: #334d6e;
-  --color-gray: #90a0b7;
-  --color-gray-icon: #c2cfe0;
-  --color-white: #ffffff;
-
-  --color-neutral-divider: #ebeff2;
-
-  --color-neutral-gray: #6a707e;
-  --color-background-gray: #F5F6F8;
-  --color-neutral-dark-gray: #4C5862;
-  --color-textual-gray:#818E9B;
-  
- 
+.global-header .header-top {
+  padding: 25px 0 10px;
+  background: linear-gradient(to right, #ed213a, #93291e);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap");
+.header-logo {
+  display: inline-block;
+  margin: 10px auto;
+  padding: 5px;
+  width: 85%;
+}
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+.global-header .header-top button {
+height: 30px;
+background-color:  #006399;
 
-* {
-  margin: 0;
+
+}
+
+.nav-toggler button {
+  cursor: pointer;
+  background: 0 0;
+  color: #006937;
+  text-align: center;
+  font-size: 2rem;
   padding: 0;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-}
-
-body {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.3rem;
+  border: 0;
 }
