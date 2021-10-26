@@ -16,11 +16,11 @@ function App() {
                   <div class="info-items place">
                     <i class="fa fa-location-arrow" aria-hidden="true"></i>
                     <span class="text">
-                      <span class="sub-text">Our Location </span> Local Service </span>
+                      <span class="sub-text">Our Location </span> <br /> Local Service </span>
                   </div>
                   <div class="info-items phone">
                     <span class="text">
-                      <span class="sub-text">Call us now</span> 706-995-7485 </span>
+                      <span class="sub-text">Call us now</span> <br /> 706-995-7485 </span>
                   </div>
                   <button type="button" class="btn btn-primary btn-lg">EMERGENCY SERVICE</button>
                 </div>
@@ -103,39 +103,64 @@ function App() {
               <h2>0% FINANCING FOR 72 MONTHS ON NEW SYSTEMS</h2>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-8 align-self-center">
-              <h5>AIR CONDITIONER INSTALLATIONS</h5>
-              <h5>FURNACE INSTALLATIONS</h5>
-              <h5>PLUMBING</h5>
+              <ul className="list-group">
+                <a className="promo-btn">AIR CONDITIONER INSTALLATIONS</a>
+                <a className="promo-btn">FURNACE INSTALLATIONS</a>
+                <a className="promo-btn">PLUMBING</a>
+              </ul>
+
             </div>
           </div>
         </div>
       </section>
 
-      <section className="contact-us">
+      <section className="services-info">
         <div className="container">
-          <div className="row">
-            <div className="col-4">
-              <form className="contact-form" action="#" method="post">
-                <div>
-                  <label for="fullName">Your Name:</label>
-                  <input type="text" name="fullName" id="fullName" required />
+          <div className="box-wrapper col-12">
+            <div className="h2-text"><strong>24/7 EXPERT SERVICES IN LOCAL SERVICE</strong></div>
+            <div className="row align-items-start">
+              <div className="col-lg-3 col-6 item">
+                <div class="card my-5">
+                  <img src="https://cdn.searchkings.ca/img/services/trane-furnace-c1e46c4293.jpg" class="card-img-top " alt="..." />
+                  <div class="card-body bg-success ">
+                    <h4 class="card-title font-weight-bold text-center text-uppercase">Furnances</h4>
+                  </div>
                 </div>
+              </div>
 
-                <div>
-                  <label for="phone">Phone:</label>
-                  <input type="tel" name="phone" id="phone" maxlength="12" placeholder="111-222-3333" required />
+              <div className="col-lg-3 col-6 item">
+                <div class="card my-5">
+                  <img src="https://cdn.searchkings.ca/img/services/trane-air-quality-6e8f047f16.jpg" class="card-img-top " alt="..." />
+                  <div class="card-body bg-success ">
+                    <h4 class="card-title font-weight-bold text-center text-uppercase">Air quality</h4>
+                  </div>
                 </div>
+              </div>
 
-                <div>
-                  <label for="email">Email:</label>
-                  <input type="email" name="email" id="email" required />
+              <div className="col-lg-3 col-6 item">
+                <div class="card my-5">
+                  <img src="https://cdn.searchkings.ca/img/services/trane-ac-6d23ab4053.jpg" class="card-img-top " alt="..." />
+                  <div class="card-body bg-success ">
+                    <h4 class="card-title font-weight-bold text-center text-uppercase">Air Condition</h4>
+                  </div>
                 </div>
-              </form>
+              </div>
+
+              <div className="col-lg-3 col-6 item">
+                <div class="card my-5">
+                  <img src="https://cdn.searchkings.ca/img/services/trane-water-heaters-315d322903.jpg" class="card-img-top " alt="..." />
+                  <div class="card-body bg-success ">
+                    <h4 class="card-title font-weight-bold text-center text-uppercase">Water heaters</h4>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
-
         </div>
       </section>
+
+
 
     </div>
   );
