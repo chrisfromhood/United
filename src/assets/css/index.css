@@ -58,7 +58,7 @@ background-color:  #006399;
 background-color: #fff;
 text-decoration: none;
 line-height: 1.1;
-padding: 0 0.5rem;
+padding: 1.2rem;
 border-radius: 6rem;
 font-weight: 700;
 font-size: 1.6rem;
@@ -76,4 +76,16 @@ line-height: 1.3;
 font-size: 2.6rem;
 text-align: center;
 margin-top: 5rem;
+}
+
+.why-us{
+  height: 543px;
+  background-color: #1f3f49;
+}
+
+.badges img {
+  max-width: 100%;
+  height: auto;
+  padding: 1rem 2rem;
+
 }
