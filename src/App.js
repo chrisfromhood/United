@@ -33,7 +33,7 @@ function App() {
 
             <div className="row">
               <div className="col-12">
-                <nav class="navbar navbar-expand-lg navbar-light">
+                <nav class="navbar navbar-expand-lg navbar-light justify-items-start">
 
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -59,8 +59,6 @@ function App() {
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                           <a class="dropdown-item" href="#">Action</a>
                           <a class="dropdown-item" href="#">Another action</a>
-
-
                         </div>
                       </li>
                       <li class="nav-item dropdown mr-4">
@@ -70,9 +68,19 @@ function App() {
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                           <a class="dropdown-item" href="#">Action</a>
                           <a class="dropdown-item" href="#">Another action</a>
-
-
                         </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Promotions</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Financing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
                       </li>
 
                     </ul>
@@ -91,7 +99,11 @@ function App() {
 
       <section className="hero">
         <div className="container">
-          HERO SECTION
+          <div className="row">
+            <div className="col">
+
+            </div>
+          </div>
         </div>
       </section>
 
@@ -161,7 +173,25 @@ function App() {
       </section>
 
       <section className="why-us">
-        <div className="container">
+        <div class="container-fluid"> {/*position: absolute; width: 100%; overflow: hidden; */}
+          <div class="row">
+            <div class="col-6">
+              <img src="" alt="" />
+            </div>
+            <div class="col-6 bgdark">
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-6 message-block align-self-center">
+              <div className="right-content">
+                <div class="h2">Why Choose us</div>
+                <p>Jordan Air provides residential heating ventilation, plumbing and air conditioning services. We have provided quality HVAC services and repairs to our community since 1993. </p>
+                <a href="/about-us/">LEARN MORE ABOUT US <span class="icon fa fa-angle-double-right"></span></a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
