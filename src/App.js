@@ -188,6 +188,22 @@ function App() {
         </div>
       </section>
 
+      <div class="testimonial-wrapper container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-2 icon text-center align-self-center">
+          </div>
+          <div class="col-12 col-md-6 col-lg-7 quote align-self-center">
+            <blockquote class="blockquote">
+              <p class="mb-0">"I was very pleased with Zack Goodman. He was professional and thorough, and he offered helpful suggestions. I’m very pleased with your service. The maintenance check every six months gives me peace of mind that my systems are working properly."</p>
+              <footer class="blockquote-footer"><cite title="Source Title">Jacquelin H.</cite></footer> </blockquote>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 text-center btn-cta align-self-center">
+            <a href="/about-us#customer-reviews" class="btn-oval">READ MORE
+              <span class="fa fa-angle-double-right"></span></a>
+          </div>
+        </div>
+      </div>
+
       <section className="resources-section">
         <div className="container">
           <div className="row justify-content-center text-center">
