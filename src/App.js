@@ -8,21 +8,21 @@ function App() {
             <div className="row">
               <div className="col-3">
                 <a className="branding-logo" href="/">
-                  <img src="https://cdn.searchkings.ca/img/assets/logo-8d549571fa.png" alt="Jordan Air Quality Air & Heating and Energy Solutions Logo" class="header-logo" />
+                  <img src="https://cdn.searchkings.ca/img/assets/logo-8d549571fa.png" alt="Jordan Air Quality Air & Heating and Energy Solutions Logo" className="header-logo" />
                 </a>
               </div>
               <div className="col-9 align-self-center">
                 <div className="header-info">
-                  <div class="info-items place">
-                    <i class="fa fa-location-arrow" aria-hidden="true"></i>
-                    <span class="text">
-                      <span class="sub-text">Our Location </span> <br /> Local Service </span>
+                  <div className="info-items place">
+                    <i className="fa fa-location-arrow" aria-hidden="true"></i>
+                    <span className="text">
+                      <span className="sub-text">Our Location </span> <br /> Local Service </span>
                   </div>
-                  <div class="info-items phone">
-                    <span class="text">
-                      <span class="sub-text">Call us now</span> <br /> 706-995-7485 </span>
+                  <div className="info-items phone">
+                    <span className="text">
+                      <span className="sub-text">Call us now</span> <br /> 706-995-7485 </span>
                   </div>
-                  <button type="button" class="btn btn-primary btn-lg">EMERGENCY SERVICE</button>
+                  <button type="button" className="btn btn-primary btn-lg">EMERGENCY SERVICE</button>
                 </div>
               </div>
             </div>
@@ -33,54 +33,54 @@ function App() {
 
             <div className="row">
               <div className="col-12">
-                <nav class="navbar navbar-expand-lg navbar-light justify-items-start">
+                <nav className="navbar navbar-expand-lg navbar-light justify-items-start">
 
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                   </button>
 
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+                  <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav mr-auto">
 
-                      <li class="nav-item dropdown mr-4">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <li className="nav-item dropdown mr-4">
+                        <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           SALES
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
+                        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a className="dropdown-item" href="/">Action</a>
+                          <a className="dropdown-item" href="/">Another action</a>
 
                         </div>
                       </li>
-                      <li class="nav-item dropdown mr-4">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <li className="nav-item dropdown mr-4">
+                        <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           REPAIRS
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
+                        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a className="dropdown-item" href="/">Action</a>
+                          <a className="dropdown-item" href="/">Another action</a>
                         </div>
                       </li>
-                      <li class="nav-item dropdown mr-4">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <li className="nav-item dropdown mr-4">
+                        <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           PLUMBING
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
+                        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a className="dropdown-item" href="/">Action</a>
+                          <a className="dropdown-item" href="/">Another action</a>
                         </div>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Promotions</a>
+                      <li className="nav-item">
+                        <a className="nav-link" href="/">Promotions</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Financing</a>
+                      <li className="nav-item">
+                        <a className="nav-link" href="/">Financing</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                      <li className="nav-item">
+                        <a className="nav-link" href="/">About Us</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contact us</a>
+                      <li className="nav-item">
+                        <a className="nav-link" href="/">Contact us</a>
                       </li>
 
                     </ul>
@@ -109,16 +109,16 @@ function App() {
 
       <section className="promo">
         <div className="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-12 align-self-center">
+          <div className="row justify-content-center">
+            <div className="col-lg-8 col-md-12 align-self-center">
               <h3 className="sub-heading">Take advantage of our new promotion</h3>
               <h2>0% FINANCING FOR 72 MONTHS ON NEW SYSTEMS</h2>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-8 align-self-center">
+            <div className="col-lg-4 col-md-6 col-sm-8 align-self-center">
               <ul className="list-group">
-                <a className="promo-btn">AIR CONDITIONER INSTALLATIONS</a>
-                <a className="promo-btn">FURNACE INSTALLATIONS</a>
-                <a className="promo-btn">PLUMBING</a>
+                <a className="promo-btn" href="/">AIR CONDITIONER INSTALLATIONS</a>
+                <a className="promo-btn" href="/">FURNACE INSTALLATIONS</a>
+                <a className="promo-btn" href="/">PLUMBING</a>
               </ul>
 
             </div>
@@ -132,37 +132,37 @@ function App() {
             <div className="h2-text"><strong>24/7 EXPERT SERVICES IN LOCAL SERVICE</strong></div>
             <div className="row align-items-start">
               <div className="col-lg-3 col-6 item">
-                <div class="card my-5">
-                  <img src="https://cdn.searchkings.ca/img/services/trane-furnace-c1e46c4293.jpg" class="card-img-top " alt="..." />
-                  <div class="card-body bg-success ">
-                    <h4 class="card-title font-weight-bold text-center text-uppercase">Furnances</h4>
+                <div className="card my-5">
+                  <img src="https://cdn.searchkings.ca/img/services/trane-furnace-c1e46c4293.jpg" className="card-img-top " alt="..." />
+                  <div className="card-body bg-success ">
+                    <h4 className="card-title font-weight-bold text-center text-uppercase">Furnances</h4>
                   </div>
                 </div>
               </div>
 
               <div className="col-lg-3 col-6 item">
-                <div class="card my-5">
-                  <img src="https://cdn.searchkings.ca/img/services/trane-air-quality-6e8f047f16.jpg" class="card-img-top " alt="..." />
-                  <div class="card-body bg-success ">
-                    <h4 class="card-title font-weight-bold text-center text-uppercase">Air quality</h4>
+                <div className="card my-5">
+                  <img src="https://cdn.searchkings.ca/img/services/trane-air-quality-6e8f047f16.jpg" className="card-img-top " alt="..." />
+                  <div className="card-body bg-success ">
+                    <h4 className="card-title font-weight-bold text-center text-uppercase">Air quality</h4>
                   </div>
                 </div>
               </div>
 
               <div className="col-lg-3 col-6 item">
-                <div class="card my-5">
-                  <img src="https://cdn.searchkings.ca/img/services/trane-ac-6d23ab4053.jpg" class="card-img-top " alt="..." />
-                  <div class="card-body bg-success ">
-                    <h4 class="card-title font-weight-bold text-center text-uppercase">Air Condition</h4>
+                <div className="card my-5">
+                  <img src="https://cdn.searchkings.ca/img/services/trane-ac-6d23ab4053.jpg" className="card-img-top " alt="..." />
+                  <div className="card-body bg-success ">
+                    <h4 className="card-title font-weight-bold text-center text-uppercase">Air Condition</h4>
                   </div>
                 </div>
               </div>
 
               <div className="col-lg-3 col-6 item">
-                <div class="card my-5">
-                  <img src="https://cdn.searchkings.ca/img/services/trane-water-heaters-315d322903.jpg" class="card-img-top " alt="..." />
-                  <div class="card-body bg-success ">
-                    <h4 class="card-title font-weight-bold text-center text-uppercase">Water heaters</h4>
+                <div className="card my-5">
+                  <img src="https://cdn.searchkings.ca/img/services/trane-water-heaters-315d322903.jpg" className="card-img-top " alt="..." />
+                  <div className="card-body bg-success ">
+                    <h4 className="card-title font-weight-bold text-center text-uppercase">Water heaters</h4>
                   </div>
                 </div>
               </div>
@@ -173,22 +173,15 @@ function App() {
       </section>
 
       <section className="why-us">
-        <div class="container-fluid"> {/*position: absolute; width: 100%; overflow: hidden; */}
-          <div class="row">
-            <div class="col-6">
-              <img src="" alt="" />
-            </div>
-            <div class="col-6 bgdark">
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 offset-lg-6 message-block align-self-center">
-              <div className="right-content">
-                <div class="h2">Why Choose us</div>
-                <p>Jordan Air provides residential heating ventilation, plumbing and air conditioning services. We have provided quality HVAC services and repairs to our community since 1993. </p>
-                <a href="/about-us/">LEARN MORE ABOUT US <span class="icon fa fa-angle-double-right"></span></a>
+
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 offset-lg-6 message-block align-self-center">
+              <div className="why-us_right-content">
+                <div className="why-us_heading">Why Choose us</div>
+                <p className="why-us_text">Jordan Air provides residential heating ventilation, plumbing and air conditioning services. We have provided quality HVAC services and repairs to our community since 1993. </p>
+                <p className="why-us_text">We offer a wide range of services and products that allow us to maximize our customers' comfort and their homes' efficiency. We specialize in plumbing repair, installation, duct cleaning, HVAC repair, emergency service, and routine maintenance. We also offer weekend and emergency services. </p>
+                <a href="/about-us/">LEARN MORE ABOUT US <span className="icon fa fa-angle-double-right"></span></a>
               </div>
             </div>
           </div>
@@ -214,22 +207,23 @@ function App() {
         <div className="footer-top">
           <div className="container">
             <div className="general-info row">
-              <div class="col-lg-auto col-sm-12 align-self-center">
+              <div className="col-lg-auto col-sm-12 align-self-center">
                 <div className="left">
-                  <a className="branding-logo" href="/" />
-                  <img src="https://cdn.searchkings.ca/img/assets/logo-white-ff53a61ba2.png" alt="Jordan Air Quality Air & Heating and Energy Solutions Logo" class="header-logo" />
+                  <a className="branding-logo" href="/" >
+                    <img src="https://cdn.searchkings.ca/img/assets/logo-white-ff53a61ba2.png" alt="Jordan Air Quality Air & Heating and Energy Solutions Logo" className="header-logo" />
+                  </a>
                 </div>
               </div>
               <div className="col align-self-center">
                 <div className="right">
                   <div className="footer__info-items place">
-                    <i class="fa fa-location-arrow" aria-hidden="true"></i>
-                    <span class="text">
-                      <span class="sub-text">Our Location </span> <br /> Local Service </span>
+                    <i className="fa fa-location-arrow" aria-hidden="true"></i>
+                    <span className="text">
+                      <span className="sub-text">Our Location </span> <br /> Local Service </span>
                   </div>
                   <div className="footer__info-items phone">
-                    <span class="text">
-                      <span class="sub-text">Call us now</span> <br /> 706-995-7485 </span>
+                    <span className="text">
+                      <span className="sub-text">Call us now</span> <br /> 706-995-7485 </span>
                   </div>
                 </div>
               </div>

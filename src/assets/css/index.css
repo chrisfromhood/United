@@ -86,12 +86,29 @@ margin-top: 5rem;
 }
 
 .why-us{
-  height: 543px;
   position: relative;
+  background-color:#1f3f49;
+  background-image: url(https://cdn.searchkings.ca/img/assets/parallax-img-generic-0b2b0e3c45.jpg);
+  background-repeat: no-repeat;
+  background-size: 50% auto;
 }
 
-.bgdark{
-  background-color:#1f3f49
+.why-us_heading {
+  font-size: 3rem;
+  color: #fff;
+  font-weight:800;
+}
+
+.why-us_right-content {
+  padding:5rem;
+}
+
+.why-us_text {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #fff;
 }
 
 .resources-section {
