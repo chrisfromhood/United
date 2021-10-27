@@ -8,7 +8,7 @@ function App() {
             <div className="row">
               <div className="col-3">
                 <a className="branding-logo" href="/">
-                  <img src="https://localunitedservices.com/wp-content/themes/san-diego-home-services/img/local-united-header-logow.png" alt="United Plumbing, Heating, Air and Electric Logo" class="header-logo" />
+                  <img src="https://cdn.searchkings.ca/img/assets/logo-8d549571fa.png" alt="Jordan Air Quality Air & Heating and Energy Solutions Logo" class="header-logo" />
                 </a>
               </div>
               <div className="col-9 align-self-center">
@@ -165,7 +165,7 @@ function App() {
         </div>
       </section>
 
-      <section className="badges-section">
+      <section className="resources-section">
         <div className="container">
           <div className="row justify-content-center text-center">
             <div className="col badges align-self-center text-center">
@@ -180,8 +180,38 @@ function App() {
         </div>
       </section>
 
+      <footer>
+        <div className="footer-top">
+          <div className="container">
+            <div className="general-info row">
+              <div class="col-lg-auto col-sm-12 align-self-center">
+                <div className="left">
+                  <a className="branding-logo" href="/" />
+                  <img src="https://cdn.searchkings.ca/img/assets/logo-white-ff53a61ba2.png" alt="Jordan Air Quality Air & Heating and Energy Solutions Logo" class="header-logo" />
+                </div>
+              </div>
+              <div className="col align-self-center">
+                <div className="right">
+                  <div className="footer__info-items place">
+                    <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                    <span class="text">
+                      <span class="sub-text">Our Location </span> <br /> Local Service </span>
+                  </div>
+                  <div className="footer__info-items phone">
+                    <span class="text">
+                      <span class="sub-text">Call us now</span> <br /> 706-995-7485 </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
 
     </div>
   );
 }
 export default App;
+
+
