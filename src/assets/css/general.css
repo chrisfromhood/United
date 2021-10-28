@@ -104,8 +104,10 @@ Medium: 11px
   }
   
   body {
+    display: block;
     font-family: 'Open Sans',sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     color: #151515;
+    font-size: 1.4rem;
   }
   

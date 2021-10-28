@@ -1,0 +1,6 @@
+.inner-page-header {
+    background: #525252 url(https://cdn.searchkings.ca/img/assets/hero-banner-50083d4d6b.jpg) no-repeat;
+    background-position: center 75%;
+    background-size: cover;
+    min-height: 150px;
+}

@@ -1,0 +1,39 @@
+.footer{
+  min-height: 8rem;
+}
+.footer-top{
+    background-color: #1f3f49;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+  .right {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .footer__info-items{
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    line-height: 1.3;
+  }
+  
+  .footer__info-items .text {
+    margin-right: 3rem;
+  }
+  
+  .footer-bottom {
+    font-weight: 500;
+    color: #fff;
+    padding: 2rem 0;
+    background-color: #151515;
+    text-align: center;
+    }
+    
+    .footer .policy {
+      font-size: 1.2rem;
+      margin: 0.5rem;
+      text-decoration: underline;
+    }
