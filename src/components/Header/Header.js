@@ -82,7 +82,7 @@ function Header() {
                                             <a className="nav-link" href="/">About Us</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="/">Contact us</a>
+                                            <a className="nav-link" href="http://localhost:3000/contact-us">Contact us</a>
                                         </li>
 
                                     </ul>

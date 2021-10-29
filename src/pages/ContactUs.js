@@ -1,6 +1,7 @@
 import "./_contact_us.css";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
+import BaseContent from "../components/BaseContent/BaseContent";
 
 function ContactUs() {
     return (
@@ -32,20 +33,20 @@ function ContactUs() {
                                             We would love to hear from you! If you have any comments, questions, or concerns, let us know, and we will get back to you right away.
                                         </p>
                                         <div className="row">
-                                            <div class="col-lg-8 col-xs-12 info-items info-box place">
+                                            <div className="col-lg-8 col-xs-12 info-items info-box place">
                                                 <a href="/" target="_blank">
-                                                    <span class="icon location">
-                                                        <span class="fa fa-location-arrow"></span>
+                                                    <span className="icon location">
+                                                        <span className="fa fa-location-arrow"></span>
                                                     </span>
-                                                    <span class="text">1165 Athens Road Crawford, Georgia 30630</span>
+                                                    <span className="text">1165 Athens Road Crawford, Georgia 30630</span>
                                                 </a>
                                             </div>
-                                            <div class="col-lg-8 col-xs-12 info-items info-box phone">
+                                            <div className="col-lg-8 col-xs-12 info-items info-box phone">
                                                 <a href="/" target="_blank">
-                                                    <span class="icon location">
-                                                        <span class="fa fa-phone"></span>
+                                                    <span className="icon location">
+                                                        <span className="fa fa-phone"></span>
                                                     </span>
-                                                    <span class="text">706-995-7485</span>
+                                                    <span className="text">706-995-7485</span>
                                                 </a>
                                             </div>
 
@@ -63,49 +64,51 @@ function ContactUs() {
 
                                             <div className="form-message">
                                                 <form>
-                                                    <div class="form-row">
-                                                        <div class="col">
+                                                    <div className="form-row">
+                                                        <div className="col">
                                                             <div className="field-name">
                                                                 <label for="validationDefault01">First name</label>
-                                                                <input type="text" class="form-control " id="validationDefault01" />
-                                                                <div class="valid-feedback">Looks good!</div>
+                                                                <input type="text" className="form-control " id="validationDefault01" />
+                                                                <div className="valid-feedback">Looks good!</div>
                                                             </div>
                                                             <div className="field-last-name">
                                                                 <label for="validationDefault01">Last name</label>
-                                                                <input type="text" class="form-control " id="validationDefault01" />
-                                                                <div class="valid-feedback">Looks good!</div>
+                                                                <input type="text" className="form-control " id="validationDefault01" />
+                                                                <div className="valid-feedback">Looks good!</div>
                                                             </div>
-                                                            <div class="field-phone">
+                                                            <div className="field-phone">
                                                                 <label for="validationDefault01">Phone</label>
-                                                                <input type="text" class="form-control" id="validationDefault01" aria-describedby="validationServer05Feedback" required />
-                                                                <div id="validationServer05Feedback" class="invalid-feedback">
+                                                                <input type="text" className="form-control" id="validationDefault01" aria-describedby="validationServer05Feedback" required />
+                                                                <div id="validationServer05Feedback" className="invalid-feedback">
                                                                     Please provide a valid phone number.
                                                                 </div>
                                                             </div>
-                                                            <div class="field-zip">
+                                                            <div className="field-zip">
                                                                 <label for="validationDefault01">Zip</label>
-                                                                <input type="text" class="form-control" id="validationDefault01" aria-describedby="validationServer05Feedback" required />
-                                                                <div id="validationServer05Feedback" class="invalid-feedback">
+                                                                <input type="text" className="form-control" id="validationDefault01" aria-describedby="validationServer05Feedback" required />
+                                                                <div id="validationServer05Feedback" className="invalid-feedback">
                                                                     Please provide a valid zip.
                                                                 </div>
                                                             </div>
-                                                            <div class="mb-3">
+                                                            <div className="mb-3">
                                                                 <label for="validationTextarea">Textarea</label>
-                                                                <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required=""></textarea>
-                                                                <div class="invalid-feedback">
+                                                                <textarea className="form-control" id="validationTextarea" placeholder="Required example textarea" required=""></textarea>
+                                                                <div className="invalid-feedback">
                                                                     How can we help?
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
 
-                                                    <button class="btn btn-primary" type="submit">Submit</button>
+                                                    <button className="btn btn-primary" type="submit">Submit</button>
                                                 </form>
                                             </div>
 
                                         </div>
-                                        <div className="review-box"></div>
-                                        <div className="s-box-small text-center"></div>
+                                        <div className="review-box">Review box</div>
+                                        <div className="s-box-small text-center">
+                                            <h4>Quick, easy &amp; affordable financing is available for you</h4>
+                                        </div>
                                     </div>
                                 </aside>
                             </div>
@@ -117,7 +120,7 @@ function ContactUs() {
 
                 </div>
             </div>
-
+            <BaseContent></BaseContent>
             <Footer></Footer>
         </div>
 

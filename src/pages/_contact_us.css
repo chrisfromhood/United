@@ -55,3 +55,23 @@
     font-size: 2rem;
     line-height: 1.2;
 }
+
+.review-box {
+    height: 74px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #006937;
+}
+
+.s-box-wrapper .s-box-small {
+    z-index: 1;
+    border: 1 solid #151515;
+    padding: 2rem1.25rem;
+    position: relative;
+    margin-top: 2.5rem;
+    background: #fff url(https://cdn.searchkings.ca/img/assets/sidebar-cta-bg-fb5ab213eb.jpg) no-repeat center;
+    background-size: cover;
+    height: 137px;
+}

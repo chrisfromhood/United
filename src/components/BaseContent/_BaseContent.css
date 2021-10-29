@@ -1,0 +1,60 @@
+.h2-text{
+    font-weight: 700;
+    line-height: 1.3;
+    font-size: 2.6rem;
+    text-align: center;
+    margin-top: 5rem;
+    }
+    
+    .why-us{
+      position: relative;
+      background-image: url(https://cdn.searchkings.ca/img/assets/parallax-img-generic-0b2b0e3c45.jpg);
+      background-repeat: no-repeat;
+      background-size: 50% auto;
+      background-color:#1f3f49;
+    }
+    
+.why-us_heading {
+    font-size: 3rem;
+    color: #fff;
+    font-weight:800;
+  }
+  
+  .why-us_right-content {
+    background-color:#1f3f49;
+    padding:5rem;
+  }
+  
+  .why-us_text {
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #fff;
+  }
+  
+  .why-us_right-content a{
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.8rem;
+    line-height: 1.4rem;
+  }
+  
+  .user-quote {
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .resources-section {
+    padding: 4rem 0;
+    border-bottom: 1px solid #eee;
+    background-image: url("https://cdn.searchkings.ca/img/assets/waves-background-4c2d6a1f3f.jpg");
+    background: center cover no-repeat; 
+  }
+  
+  .badges img {
+    max-width: 100%;
+    height: auto;
+    padding: 1rem 2rem;
+  }
