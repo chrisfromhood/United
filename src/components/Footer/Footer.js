@@ -2,7 +2,7 @@ import "./_footer.css";
 
 function Footer() {
     return (
-        <footer>
+        <footer className="footer">
             <div className="footer-top">
                 <div className="container">
                     <div className="general-info row">
@@ -31,7 +31,8 @@ function Footer() {
             </div>
             <div className="footer-bottom">
                 <div className="container">
-                    <span class="copyright">Copyright © 2021 <a href="/" title="Jordan Air Quality Air &amp; Heating and Energy Solutions">Jordan Air Quality Air &amp; Heating and Energy Solutions</a>. All Rights Reserved.</span>
+                    <span className="copyright">Copyright © 2021
+                        <a href="/" title="Jordan Air Quality Air &amp; Heating and Energy Solutions">Jordan Air Quality Air &amp; Heating and Energy Solutions</a>. All Rights Reserved.</span>
                 </div>
             </div>
         </footer>

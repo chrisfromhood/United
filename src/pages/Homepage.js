@@ -14,15 +14,15 @@ function Homepage() {
               <div className="hero-text-box">
                 <h3>LOCALLY OWNED & OPERATED SINCE 1993</h3>
                 <h1 className="heading-primary">Heating ventilation, air conditioning and plumbing</h1>
-                <ul class="list-group list-group-horizontal">
-                  <li class="list-group-item-info">Award-winning</li>
-                  <li class="list-group-item-info">Top-quality materials</li>
+                <ul className="list-group list-group-horizontal">
+                  <li className="list-group-item-info">Award-winning</li>
+                  <li className="list-group-item-info">Top-quality materials</li>
                 </ul>
-                <ul class="list-group list-group-horizontal">
-                  <li class="list-group-item-info">Trained, certified tehnicians</li>
-                  <li class="list-group-item-info">Licensed, bonded, insured</li>
+                <ul className="list-group list-group-horizontal">
+                  <li className="list-group-item-info">Trained, certified tehnicians</li>
+                  <li className="list-group-item-info">Licensed, bonded, insured</li>
                 </ul>
-                <button type="button" class="btn btn-info">Connect with a specialist &gt;&gt;</button>
+                <button type="button" className="btn btn-info">Connect with a specialist &gt;&gt;</button>
 
               </div>
 
@@ -114,18 +114,18 @@ function Homepage() {
         </div>
       </section>
 
-      <div class="testimonial-wrapper container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-2 icon text-center align-self-center">
+      <div className="testimonial-wrapper container">
+        <div className="row justify-content-center">
+          <div className="col-12 col-md-2 icon text-center align-self-center">
           </div>
-          <div class="col-12 col-md-6 col-lg-7 quote align-self-center">
-            <blockquote class="blockquote">
-              <p class="user-quote">"I was very pleased with Zack Goodman. He was professional and thorough, and he offered helpful suggestions. I’m very pleased with your service. The maintenance check every six months gives me peace of mind that my systems are working properly."</p>
-              <footer class="blockquote-footer"><cite title="Source Title">Jacquelin H.</cite></footer> </blockquote>
+          <div className="col-12 col-md-6 col-lg-7 quote align-self-center">
+            <blockquote className="blockquote">
+              <p className="user-quote">"I was very pleased with Zack Goodman. He was professional and thorough, and he offered helpful suggestions. I’m very pleased with your service. The maintenance check every six months gives me peace of mind that my systems are working properly."</p>
+              <footer className="blockquote-footer"><cite title="Source Title">Jacquelin H.</cite></footer> </blockquote>
           </div>
-          <div class="col-12 col-md-4 col-lg-3 text-center btn-cta align-self-center">
-            <a href="/about-us#customer-reviews" class="btn-oval">READ MORE
-              <span class="fa fa-angle-double-right"></span></a>
+          <div className="col-12 col-md-4 col-lg-3 text-center btn-cta align-self-center">
+            <a href="/about-us#customer-reviews" className="btn-oval">READ MORE
+              <span className="fa fa-angle-double-right"></span></a>
           </div>
         </div>
       </div>
