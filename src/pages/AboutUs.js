@@ -2,6 +2,7 @@ import "./_about_us.css";
 import Header from "../components/Header/Header";
 import Repair from "../components/CTA/Repair";
 import BaseContent from "../components/BaseContent/BaseContent";
+import PostCTA from "../components/CTA/PostCTA";
 import Footer from "../components/Footer/Footer";
 import Sidebar from "../components/Sidebar/Sidebar";
 function AboutUs() {
@@ -70,26 +71,28 @@ function AboutUs() {
                                 <p><strong>WE PROVIDE ENERGY SOLUTIONS.</strong> This not only conserves energy, but saves you money.</p>
                                 <p><strong>WE PROVIDE EMERGENCY SERVICE.</strong> You never have to panic and can rest assured that we will be there to fix your system.</p>
 
-                                <blockquote class="blockquote border-secondary text-center">
-                                    <p class="mb-0"><i class="fa fa-quote-left"></i> I was very pleased with Zack Goodman. He was professional and thorough, and he offered helpful suggestions. I’m very pleased with your service. The maintenance check every six months gives me peace of mind that my systems are working properly.
-                                    </p>
-                                    <footer class="blockquote-footer">Albert Einstein <cite title="Source Title">genius</cite></footer>
-
-                                </blockquote>
-
-                                <blockquote class="blockquote border-secondary text-center">
-                                    <p class="mb-0"><i class="fa fa-quote-left"></i> Absolutely wonderful! Wyatt and Jeremiah were professional, efficient, polite and I absolutely recommended Jordan Air.
+                                <blockquote class="blockquote text-center">
+                                    <p class="mb-0"><i class="fa fa-quote-left"></i> "I was very pleased with Zack Goodman. He was professional and thorough, and he offered helpful suggestions. I’m very pleased with your service. The maintenance check every six months gives me peace of mind that my systems are working properly."
                                     </p>
                                     <footer class="blockquote-footer">Albert Einstein <cite title="Source Title">genius</cite></footer>
 
                                 </blockquote>
 
                                 <blockquote class="blockquote text-center">
-                                    <p class="mb-0"><i class="fa fa-quote-left"></i> Great service. Technicians very knowledgeable!
+                                    <p class="mb-0"><i class="fa fa-quote-left"></i> "Absolutely wonderful! Wyatt and Jeremiah were professional, efficient, polite and I absolutely recommended Jordan Air."
                                     </p>
                                     <footer class="blockquote-footer">Albert Einstein <cite title="Source Title">genius</cite></footer>
 
                                 </blockquote>
+
+                                <blockquote class="blockquote text-center">
+                                    <p class="mb-0"><i class="fa fa-quote-left"></i> "Great service. Technicians very knowledgeable!"
+                                    </p>
+                                    <footer class="blockquote-footer">Albert Einstein <cite title="Source Title">genius</cite></footer>
+
+                                </blockquote>
+
+                                <PostCTA></PostCTA>
                             </div>
 
                         </div>
