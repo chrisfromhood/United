@@ -75,3 +75,46 @@
     background-size: cover;
     height: 137px;
 }
+
+.repair-cta {
+   
+    box-shadow: 1px 6px 20px 0 rgb(0 0 0 / 17%);
+    background-color: #fafafa;
+    border: 3px solid #282b37;
+    margin: 15px 0 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 579px;
+}
+
+.repair-cta .repair-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 5rem 1rem;
+    width: 100%;
+    height: 579px;
+}
+
+.repair-cta .wrapper:first-child {
+    background-color: #282b37;
+}
+
+.repair-cta .repair-item {
+    padding: 2rem 3rem;
+    border-left: 1rem solid #006937;
+    background-color: #fff;
+    margin: 0 7rem 1.5rem 0;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 5px 0 10px #c8c8c8;
+    color: #151515;
+}
+
+.repair-cta .wrapper:last-child {
+    margin: 3rem 0;
+    padding-left: 0;
+}

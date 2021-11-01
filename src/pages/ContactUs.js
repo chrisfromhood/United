@@ -1,8 +1,8 @@
 import "./_contact_us.css";
 import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
+import Repair from "../components/CTA/Repair";
 import BaseContent from "../components/BaseContent/BaseContent";
-
+import Footer from "../components/Footer/Footer";
 function ContactUs() {
     return (
 
@@ -116,10 +116,10 @@ function ContactUs() {
                     </div>
                 </div>
 
-                <div className="single-post-part">
-
-                </div>
+                <Repair></Repair>
             </div>
+
+
             <BaseContent></BaseContent>
             <Footer></Footer>
         </div>
