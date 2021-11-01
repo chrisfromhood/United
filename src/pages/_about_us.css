@@ -21,32 +21,24 @@
     line-height: 1.1;
 }
 
-.contact-info {
+.post-parallax {
+    width: 100%;
     position: relative;
-    background: #fff;
+    overflow: hidden;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #777;
 }
 
-.contact-info .inner {
-    padding: 30px;
-    border: 2px solid #006937;
+.post-header {
+    min-height: 267px;
 }
 
-.contact-info .inner .text {
-    font-size: 1.6rem;
-    font-weight: 700;
+.post-header img {
+    max-width: 100%;
 }
 
-.post-content p {
-    font-weight: 300;
-    font-size: 1.6rem;
-    line-height: 1.45;
-    margin-bottom: 1.5rem;
-}
 
-.s-box-wrapper .s-box-large {
-    padding: 2.5rem;
-    color: #fff;
-    background: #006937;
-    text-transform: uppercase;
-    box-shadow: 0 3px 8px #ccc;
-}
+
