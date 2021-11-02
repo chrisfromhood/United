@@ -109,8 +109,6 @@ function AboutUs() {
 
             <Repair></Repair>
 
-
-
             <BaseContent></BaseContent>
             <Footer></Footer>
         </div>

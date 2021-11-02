@@ -1,6 +1,6 @@
-import "./_post_CTA.css";
+import "./_coupon.css";
 
-function PostCTA() {
+function Coupon() {
     return (
 
         <div className="coupon-wrapper">
@@ -29,4 +29,4 @@ function PostCTA() {
 
     );
 }
-export default PostCTA;
+export default Coupon;

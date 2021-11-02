@@ -1,0 +1,24 @@
+.coupon-wrapper {
+    padding-top: 10px;
+}
+
+.coupon {
+    padding: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    border: 3px dashed #b9d8e1;
+    background-color: #fff;
+}
+
+.border-hr {
+   border-color: #d2d2d2;
+   margin: 2rem 0 1rem;
+}
+
+.discount {
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.25;
+    font-size: 2.5rem;
+}
