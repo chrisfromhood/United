@@ -1,0 +1,107 @@
+.full-inner-banner {
+    position: relative;
+    color: #fff;
+    background: #006937;
+    background-position: bottom center;
+    background-size: cover;
+    background-image:url(https://cdn.searchkings.ca/img/post-inner-full/ac-hero-banner-92abbfb1f3.jpg);
+    overflow: hidden;
+}
+
+.full-inner-banner::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(21,21,21,.8);
+    mix-blend-mode: multiply;
+}
+
+.full-inner-banner h1 {
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.full-inner-banner p {
+    font-size: 24px;
+}
+
+.full-inner-banner .hero-promo {
+    background: #006937 url(https://cdn.searchkings.ca/img/post-inner-full/card-pattern-3d5fef1096.png) no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 2rem;
+    padding: 3rem;
+}
+
+.full-inner-banner .hero-promo .h2 {
+    font-weight: 300;
+    font-size: 38px;
+    display: block;
+    margin-bottom: 1rem
+}
+
+.full-inner-slab-button .text {
+    line-height: 1.2;
+    padding-right: 5px;
+}
+
+.full-inner-slab-button {
+    display: inline-block;
+    background: #fff;
+    color: #151515;
+    border-radius: 60px;
+    font-weight: 600;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+@media (min-width: 992px) {
+    .full-inner-banner .full-inner-slab-button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 16px;
+}}
+
+.full-inner-content .post-content .post-header {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.full-inner-content .post-content .post-header h2 {
+    color: #006937;
+    line-height: 1.2;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.big-list li {
+    font-size: 25px;
+    line-height: 1.2;
+    margin: 30px 30px 30px 50px;
+}
+
+.full-inner-content .post-content .big-list {
+    background-color: #1f3f49;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 20px solid #006937;
+    color: #fff;
+    padding: 1px 2px;
+    margin-bottom: 15px;
+}
+
+.post-end .h3 {
+    font-size: 28px;
+    font-weight: 300;
+    text-transform: uppercase;
+}

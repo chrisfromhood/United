@@ -49,8 +49,8 @@ function Header() {
                                                 SALES
                                             </a>
                                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <a className="dropdown-item" href="/">Action</a>
-                                                <a className="dropdown-item" href="/">Another action</a>
+                                                <a className="dropdown-item" href="http://localhost:3000/ac-installations">AIR CONDITIONER INSTALLATIONS</a>
+                                                <a className="dropdown-item" href="/">FURNACE INSTALATIONS</a>
 
                                             </div>
                                         </li>
@@ -73,7 +73,7 @@ function Header() {
                                             </div>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="/">Promotions</a>
+                                            <a className="nav-link" href="http://localhost:3000/promotions">Promotions</a>
                                         </li>
                                         <li className="nav-item">
                                             <a className="nav-link" href="/">Financing</a>
