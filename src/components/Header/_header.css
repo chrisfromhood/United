@@ -79,6 +79,10 @@
   line-height: 1.3;
 }
 
+.header-info .info-items .text .sub-text {
+  font-size: 1.4rem;
+}
+
 .header-info .btn-oval {
   display: inline-block;
   margin-top: 2rem;

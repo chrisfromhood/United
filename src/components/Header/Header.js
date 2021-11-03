@@ -18,12 +18,12 @@ function Header() {
                                 <div className="info-items place">
                                     <i className="fas fa-location-arrow" aria-hidden="true"></i>
                                     <span className="text">
-                                        <span className="sub-text">Our Location </span> <br /> Local Service </span>
+                                        <span className="sub-text">Our Location</span> <br /> Local Service </span>
                                 </div>
                                 <div className="info-items phone">
                                     <a href="tel:706-995-7485" className="phone">
                                         <span className="icon"><span className="fas fa-phone-alt"></span> </span>
-                                        <span className="text"> <span className="sub-text">Call us now</span> 706-995-7485 </span>
+                                        <span className="text"> <span className="sub-text">Call us now</span> <br /> 706-995-7485 </span>
                                     </a>
                                 </div>
                                 <button type="button" className="btn-oval">EMERGENCY SERVICE</button>
