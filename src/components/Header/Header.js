@@ -16,15 +16,17 @@ function Header() {
                         <div className="col align-self-center">
                             <div className="header-info">
                                 <div className="info-items place">
-                                    <i className="fa fa-location-arrow" aria-hidden="true"></i>
+                                    <i className="fas fa-location-arrow" aria-hidden="true"></i>
                                     <span className="text">
                                         <span className="sub-text">Our Location </span> <br /> Local Service </span>
                                 </div>
                                 <div className="info-items phone">
-                                    <span className="text">
-                                        <span className="sub-text">Call us now</span> <br /> 706-995-7485 </span>
+                                    <a href="tel:706-995-7485" className="phone">
+                                        <span className="icon"><span className="fas fa-phone-alt"></span> </span>
+                                        <span className="text"> <span className="sub-text">Call us now</span> 706-995-7485 </span>
+                                    </a>
                                 </div>
-                                <button type="button" className="btn btn-primary btn-lg">EMERGENCY SERVICE</button>
+                                <button type="button" className="btn-oval">EMERGENCY SERVICE</button>
                             </div>
                         </div>
                     </div>

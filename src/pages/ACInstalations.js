@@ -56,7 +56,7 @@ function ACInstalations() {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="tab-panel show" id="warranty-maintenance">
+                                <div className="tab-pane show" id="warranty-maintenance">
                                     <img data-src="https://cdn.searchkings.ca/img/post-inner-full/ac-maintenance-tab-a6ac158200.jpg" className="img-fluid tab-image lazy loaded" alt="Air Conditioner Installations" src="https://cdn.searchkings.ca/img/post-inner-full/ac-maintenance-tab-a6ac158200.jpg" data-was-processed="true" />
                                     <p>To protect you from surprise breakdowns and costly repairs, we provide a comprehensive maintenance package backed up by both parts &amp; labor warranties.</p>
                                     <div className="jumbotron big-list">
@@ -70,20 +70,20 @@ function ACInstalations() {
                                             <div className="row">
                                                 <div className="col-lg-6 col-12">
                                                     <div className="list fa-ul">
-                                                        <li><span class="fa-li fas fa-check"></span><strong>Check fan control</strong></li>
-                                                        <li><span class="fa-li fas fa-check"></span><strong>Ensure all safety controls are in working order</strong></li>
-                                                        <li><span class="fa-li fas fa-check"></span><strong>Test your thermostat</strong></li>
-                                                        <li><span class="fa-li fas fa-check"></span><strong>Review electrical voltage and amp draws</strong></li>
-                                                        <li><span class="fa-li fas fa-check"></span><strong>Check carbon monoxide levels</strong></li>
+                                                        <li><span className="fa-li fas fa-check"></span><strong>Check fan control</strong></li>
+                                                        <li><span className="fa-li fas fa-check"></span><strong>Ensure all safety controls are in working order</strong></li>
+                                                        <li><span className="fa-li fas fa-check"></span><strong>Test your thermostat</strong></li>
+                                                        <li><span className="fa-li fas fa-check"></span><strong>Review electrical voltage and amp draws</strong></li>
+                                                        <li><span className="fa-li fas fa-check"></span><strong>Check carbon monoxide levels</strong></li>
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-6 col-12">
                                                     <div className="list fa-ul">
-                                                        <li><span class="fa-li fas fa-check"></span><strong>Inspect air filters</strong></li>
-                                                        <li><span class="fa-li fas fa-check"></span><strong>Adjust airflow for proper temperature changes</strong></li>
-                                                        <li><span class="fa-li fas fa-check"></span><strong>Clean flame sensor if required</strong></li>
-                                                        <li><span class="fa-li fas fa-check"></span><strong>Adjust gas pressure</strong></li>
-                                                        <li><span class="fa-li fas fa-check"></span><strong>Monitor the system for optimal performance</strong></li>
+                                                        <li><span className="fa-li fas fa-check"></span><strong>Inspect air filters</strong></li>
+                                                        <li><span className="fa-li fas fa-check"></span><strong>Adjust airflow for proper temperature changes</strong></li>
+                                                        <li><span className="fa-li fas fa-check"></span><strong>Clean flame sensor if required</strong></li>
+                                                        <li><span className="fa-li fas fa-check"></span><strong>Adjust gas pressure</strong></li>
+                                                        <li><span className="fa-li fas fa-check"></span><strong>Monitor the system for optimal performance</strong></li>
                                                     </div>
                                                 </div>
                                             </div>
@@ -92,9 +92,30 @@ function ACInstalations() {
                                     <p>Regular air conditioner tune-ups and safety checks will ensure your system is running efficiently, saving you money on monthly cooling bills.</p>
                                     <p>A thorough maintenance plan completed by licensed and certified technicians also secures the longevity of your air conditioner, providing you peace-of-mind.</p>
                                 </div>
-                                <div className="tab-panel active show" id="specs-info">
-
+                                <div className="tab-pane show" id="specs-info">
+                                    <img data-src="https://cdn.searchkings.ca/img/post-inner-full/ac-specs-tab-064df7bf1f.jpg" className="img-fluid tab-image lazy loaded" alt="Air Conditioner Installations" src="https://cdn.searchkings.ca/img/post-inner-full/ac-specs-tab-064df7bf1f.jpg" data-was-processed="true" />
+                                    <h3>What size air conditioner do I need?</h3>
+                                    <p>Choosing the right size air conditioner for your home can be stressful. There are many factors about your home that directly affect the performance, efficiency, and cost of an air conditioning system.</p>
+                                    <p>An A/C that is too small can actually leave your home feeling clammy and uncomfortable, while a unit that is too large will cycle on and off frequently, wasting energy and costing you more on monthly bills.</p>
+                                    <p>Don’t worry though; our certified technicians can help guide you through the process to find the best A/C size for your needs.</p>
+                                    <h3>How we determine the right size air conditioner for your needs</h3>
+                                    <p>As a general rule, you can multiply your home’s square footage by 25 to roughly estimate the size of air conditioner you require. On average a 2,500 sq/ft home needs a unit with 62,500 BUs, but there are many other factors that need to be considered, such as:</p>
+                                    <div className="jumbotron big-list">
+                                        <ul className="list fa-ul">
+                                            <li><span className="fa-li fas fa-toolbox"></span>Age of Home</li>
+                                            <li><span className="fa-li fas fa-toolbox"></span>Number of Windows</li>
+                                            <li><span className="fa-li fas fa-toolbox"></span>Room Sizes</li>
+                                            <li><span className="fa-li fas fa-toolbox"></span>Average Climate</li>
+                                            <li><span className="fa-li fas fa-toolbox"></span>Building Insulation</li>
+                                        </ul>
+                                    </div>
+                                    <p>Based on these factors and more, our experienced team of cooling technicians can determine the perfect size air conditioner for your home.</p>
+                                    <h3>Why choose a high-efficiency air conditioner?</h3>
+                                    <p>When we talk about a systems “efficiency” we’re talking about the amount of energy it uses. The more energy a system uses, the less efficient it becomes.</p>
+                                    <p>An air conditioner with a high-efficiency rating will use less energy to cool down your home, leaving your monthly costs low and your comfort level high.</p>
+                                    <p>Find out what size air conditioner you need by contacting our licensed and certified team of technicians.</p>
                                 </div>
+
                             </div>
                         </div>
                     </div>

@@ -90,6 +90,7 @@ Medium: 11px
   * {
     margin: 0;
     padding: 0;
+    outline: 0;
   }
   
   *,
@@ -119,4 +120,9 @@ Medium: 11px
     margin-top: 0;
     margin-bottom: 1rem;
 }
-  
+
+a {
+  color: #151515;
+  text-decoration: none;
+  background-color: transparent;
+}
