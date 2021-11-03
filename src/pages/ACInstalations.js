@@ -114,10 +114,24 @@ function ACInstalations() {
                                         <div className="carousel-item ">
                                             <h3 className="name">Rebel S.</h3>
                                             <p>Absolutely wonderful! Wyatt and Jeremiah were professional, efficient, polite and I absolutely recommended Jordan Air.</p>
+                                            <div className="rating">
+                                                <span className="fas fa-star"></span>
+                                                <span className="fas fa-star"></span>
+                                                <span className="fas fa-star"></span>
+                                                <span className="fas fa-star"></span>
+                                                <span className="fas fa-star"></span>
+                                            </div>
                                         </div>
                                         <div className="carousel-item">
                                             <h3 className="name">Pamela H..</h3>
                                             <p>Great service. Tehnicians very knowledgeable!</p>
+                                            <div className="rating">
+                                                <span className="fas fa-star"></span>
+                                                <span className="fas fa-star"></span>
+                                                <span className="fas fa-star"></span>
+                                                <span className="fas fa-star"></span>
+                                                <span className="fas fa-star"></span>
+                                            </div>
                                         </div>
                                     </div>
                                     <ol className="carousel-indicators">
