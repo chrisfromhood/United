@@ -87,7 +87,49 @@ function ACInstalations() {
                         </div>
 
                     </div>
-                    <div className="full-inner-testimonial"></div>
+                    <div className="full-inner-testimonial">
+                        <div className="row">
+                            <div className="col-xl-4 col-12 align-self-end order-xl-2">
+                                <div className="image-wrapper">
+                                    <a href="/">
+                                        <img className="google-review-badge" src="https://cdn.searchkings.ca/img/post-inner-full/google-reviews-296a53feb5.png" alt="Google Review" />
+                                    </a>
+                                    <img className="testimonial-family" src="https://cdn.searchkings.ca/img/post-inner-full/testimonial-family-f3a6d8ac67.png" alt="Testimonial Family" />
+                                </div>
+                            </div>
+                            <div className="col-xl-8 col-12 align-self-center order-xl-1">
+                                <div id="testimonial-carousel-indicators" className="carousel slide" data-interval="false">
+                                    <div className="carousel-inner">
+                                        <div className="carousel-item active">
+                                            <h3 className="name">Jacquelin H.</h3>
+                                            <p>I was very pleased with Zack Goodman. He was professional and thorough, and he offered helpful suggestions. I’m very pleased with your service. The maintenance check every six months gives me peace of mind that my systems are working properly.</p>
+                                            <div className="rating">
+                                                <span className="fas fa-star"></span>
+                                                <span className="fas fa-star"></span>
+                                                <span className="fas fa-star"></span>
+                                                <span className="fas fa-star"></span>
+                                                <span className="fas fa-star"></span>
+                                            </div>
+                                        </div>
+                                        <div className="carousel-item ">
+                                            <h3 className="name">Rebel S.</h3>
+                                            <p>Absolutely wonderful! Wyatt and Jeremiah were professional, efficient, polite and I absolutely recommended Jordan Air.</p>
+                                        </div>
+                                        <div className="carousel-item">
+                                            <h3 className="name">Pamela H..</h3>
+                                            <p>Great service. Tehnicians very knowledgeable!</p>
+                                        </div>
+                                    </div>
+                                    <ol className="carousel-indicators">
+                                        <li data-target="#testimonial-carousel-indicators" data-slide-to="0" className=""></li>
+                                        <li data-target="#testimonial-carousel-indicators" data-slide-to="1" className=""></li>
+                                        <li data-target="#testimonial-carousel-indicators" data-slide-to="2" className="active"></li>
+                                    </ol>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
 

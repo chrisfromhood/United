@@ -100,8 +100,77 @@
     margin-bottom: 15px;
 }
 
+.post-end {
+    box-shadow: 1px 6px 20px 0 rgba(0,0,0,17%);
+    background-color: #151515;
+    padding: 30px 50px;
+    margin-bottom: 30px;
+    color: #fff;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
 .post-end .h3 {
     font-size: 28px;
     font-weight: 300;
     text-transform: uppercase;
+}
+
+.full-inner-testimonial {
+    position:relative;
+    background: url(https://cdn.searchkings.ca/img/post-inner-full/testimonial-img-9af01208a4.jpg) no-repeat center;
+    background-size: cover;
+    box-shadow: 1px 6px 20px 0 rgba(0,0,0,17%);
+    border-radius: 20px;
+    padding: 0 40px;
+    overflow: hidden;
+}
+
+.image-wrapper {
+    position: relative;
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .google-review-badge {
+  position: absolute;
+  left:0;
+  right: 0;
+  bottom: 30px;
+}}
+
+.testimonial-family {
+    max-width: 300px;
+}
+
+.carousel-item .name {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.carousel-inner::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+@media (min-width: 768px) {
+.full-inner-testimonial .carousel {
+    padding: 35px 40px;
+}
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
 }
