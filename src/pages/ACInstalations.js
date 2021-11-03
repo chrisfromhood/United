@@ -35,17 +35,17 @@ function ACInstalations() {
                         <div className="tab-section">
                             <ul className="nav nav-justified">
                                 <li className="nav-item">
-                                    <a href="#savings-offers" className="nav-link" data-toggle="pill" aria-controls="savings-offers" aria-selected="true">Savings & Free Offers</a>
+                                    <a className="nav-link active show" href="#savings-offers" data-toggle="pill" aria-controls="savings-offers" aria-selected="true">Savings & Free Offers</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="#warranty-maintenance" className="nav-link show" data-toggle="pill" aria-controls="warranty-maintenance" aria-selected="false">Warranty Maintenance</a>
+                                    <a className="nav-link show" href="#warranty-maintenance" data-toggle="pill" aria-controls="warranty-maintenance" aria-selected="false">Warranty Maintenance</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a href="#specs-info" className="nav-link active show" data-toggle="pill" aria-controls="specs-info" aria-selected="false">Savings & Free Offers</a>
+                                    <a className="nav-link" href="#specs-info" data-toggle="pill" aria-controls="specs-info" aria-selected="false">Air Conditioner Specifications</a>
                                 </li>
                             </ul>
                             <div className="tab-content" id="pills-tabContent">
-                                <div className="tab-panel show" id="savings-offers">
+                                <div className="tab-pane show active" id="savings-offers">
                                     <img data-src="https://cdn.searchkings.ca/img/post-inner-full/savings-free-offers-tab-4b7dcd06eb.jpg" className="img-fluid tab-image lazy loaded" alt="Air Conditioner Installations" src="https://cdn.searchkings.ca/img/post-inner-full/savings-free-offers-tab-4b7dcd06eb.jpg" data-was-processed="true" />
                                     <p>Your air conditioner is a big investment. We understand that making the right decisions today are crucial to your long-term home comfort.</p>
                                     <p>Here are some of our incentives:</p>
@@ -56,8 +56,45 @@ function ACInstalations() {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="tab-panel show" id="warranty-maintenance"></div>
-                                <div className="tab-panel active show" id="specs-info"></div>
+                                <div className="tab-panel show" id="warranty-maintenance">
+                                    <img data-src="https://cdn.searchkings.ca/img/post-inner-full/ac-maintenance-tab-a6ac158200.jpg" className="img-fluid tab-image lazy loaded" alt="Air Conditioner Installations" src="https://cdn.searchkings.ca/img/post-inner-full/ac-maintenance-tab-a6ac158200.jpg" data-was-processed="true" />
+                                    <p>To protect you from surprise breakdowns and costly repairs, we provide a comprehensive maintenance package backed up by both parts &amp; labor warranties.</p>
+                                    <div className="jumbotron big-list">
+                                        <ul className="list fa-ul">
+                                            <li><span className="fa-li fas fa-toolbox"></span>1-year Free Maintenance Package with New Installation</li>
+                                        </ul>
+                                    </div>
+                                    <h3 className="highlight">What's included in your 1-year complimentary maintenance package:</h3>
+                                    <div className="jumbotron">
+                                        <div className="list-items">
+                                            <div className="row">
+                                                <div className="col-lg-6 col-12">
+                                                    <div className="list fa-ul">
+                                                        <li><span class="fa-li fas fa-check"></span><strong>Check fan control</strong></li>
+                                                        <li><span class="fa-li fas fa-check"></span><strong>Ensure all safety controls are in working order</strong></li>
+                                                        <li><span class="fa-li fas fa-check"></span><strong>Test your thermostat</strong></li>
+                                                        <li><span class="fa-li fas fa-check"></span><strong>Review electrical voltage and amp draws</strong></li>
+                                                        <li><span class="fa-li fas fa-check"></span><strong>Check carbon monoxide levels</strong></li>
+                                                    </div>
+                                                </div>
+                                                <div className="col-lg-6 col-12">
+                                                    <div className="list fa-ul">
+                                                        <li><span class="fa-li fas fa-check"></span><strong>Inspect air filters</strong></li>
+                                                        <li><span class="fa-li fas fa-check"></span><strong>Adjust airflow for proper temperature changes</strong></li>
+                                                        <li><span class="fa-li fas fa-check"></span><strong>Clean flame sensor if required</strong></li>
+                                                        <li><span class="fa-li fas fa-check"></span><strong>Adjust gas pressure</strong></li>
+                                                        <li><span class="fa-li fas fa-check"></span><strong>Monitor the system for optimal performance</strong></li>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>Regular air conditioner tune-ups and safety checks will ensure your system is running efficiently, saving you money on monthly cooling bills.</p>
+                                    <p>A thorough maintenance plan completed by licensed and certified technicians also secures the longevity of your air conditioner, providing you peace-of-mind.</p>
+                                </div>
+                                <div className="tab-panel active show" id="specs-info">
+
+                                </div>
                             </div>
                         </div>
                     </div>
