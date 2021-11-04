@@ -71,9 +71,9 @@ function AboutUs() {
                                 <hr id="customer-reviews" />
 
                                 <div className="quote-block text-center">
-                                    <span class="icon"><span class="fa fa-quote-left"></span></span>
+                                    <span className="icon"><span className="fa fa-quote-left"></span></span>
                                     <p> I was very pleased with Zack Goodman. He was professional and thorough, and he offered helpful suggestions. I’m very pleased with your service. The maintenance check every six months gives me peace of mind that my systems are working properly. </p>
-                                    <footer class="blockquote-footer"><cite title="Source Title">Jacquelin H.</cite></footer>
+                                    <footer className="blockquote-footer"><cite title="Source Title">Jacquelin H.</cite></footer>
                                     <div className="rating">
                                         <span className="fas fa-star"></span>
                                         <span className="fas fa-star"></span>
@@ -86,9 +86,9 @@ function AboutUs() {
                                 <hr id="customer-reviews" />
 
                                 <div className="quote-block text-center">
-                                    <span class="icon"><span class="fa fa-quote-left"></span></span>
+                                    <span className="icon"><span className="fa fa-quote-left"></span></span>
                                     <p> Absolutely wonderful! Wyatt and Jeremiah were professional, efficient, polite and I absolutely recommended Jordan Air. </p>
-                                    <footer class="blockquote-footer"><cite title="Source Title">Rebel S.</cite></footer>
+                                    <footer className="blockquote-footer"><cite title="Source Title">Rebel S.</cite></footer>
                                     <div className="rating">
                                         <span className="fas fa-star"></span>
                                         <span className="fas fa-star"></span>
@@ -101,9 +101,9 @@ function AboutUs() {
                                 <hr id="customer-reviews" />
 
                                 <div className="quote-block text-center">
-                                    <span class="icon"><span class="fa fa-quote-left"></span></span>
+                                    <span className="icon"><span className="fa fa-quote-left"></span></span>
                                     <p> Great service. Technicians very knowledgeable!</p>
-                                    <footer class="blockquote-footer"><cite title="Source Title">Pamela H.</cite></footer>
+                                    <footer className="blockquote-footer"><cite title="Source Title">Pamela H.</cite></footer>
                                     <div className="rating">
                                         <span className="fas fa-star"></span>
                                         <span className="fas fa-star"></span>

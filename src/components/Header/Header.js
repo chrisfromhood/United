@@ -16,7 +16,9 @@ function Header() {
                         <div className="col align-self-center">
                             <div className="header-info">
                                 <div className="info-items place">
-                                    <i className="fas fa-location-arrow" aria-hidden="true"></i>
+                                    <span className="icon location">
+                                        <span className="fas fa-location-arrow"></span>
+                                    </span>
                                     <span className="text">
                                         <span className="sub-text">Our Location</span> <br /> Local Service </span>
                                 </div>
