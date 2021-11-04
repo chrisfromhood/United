@@ -33,36 +33,33 @@ function AboutUs() {
                                 <p>Jordan Air Quality Air &amp; Heating and Energy Solutions is a full service HVAC company founded by Donnie and Carolyn Jordan in 1993. Donnie is a thinker, dreamer and problem solver; Carolyn is an organizer, planner and accounting whiz. Together they make the perfect business combo!</p>
                                 <p>They employ technicians who are not only highly skilled and technically qualified, but who are also a pleasure to have in your home. They take pride in their work and always act in a professional and polite manner.</p>
                                 <h2>12 REASONS TO CHOOSE JORDAN AIR</h2>
-                                <article>WE VALUE OUR CUSTOMERS. We acknowledge that without our customers, we would not be able to do what we do. Your comfort and happiness are of the highest importance to us.
-
-                                    JORDAN AIR HAS BEEN SERVING the surrounding Athens areas since 1993. This means that we are familiar with the area and the needs of our customers.
-
-                                    WE USE TOP QUALITY MATERIALS. We purchase only high quality products for service and installation, including Trane heating and cooling products.
-
-                                    WE ARE A DRUG FREE WORKPLACE in the state of Georgia. This allows you to have a peace of mind when we are in your home.
-
-                                    WE KEEP AN INVENTORY of hundreds of different parts to fit your specific unit. This saves you time and money.
-
-                                    WE ARE MEMBERS of the Athens Clarke County, Oconee County, Madison County, Jackson County, Taliaferro County, Greene County, and Oglethorpe County Chambers of Commerce. Economic development and growth and service in your area are important to us.
-
-                                    OUR TEAM is made up of skilled, certified professionals. You can rest assured that you are being well taken care of.
-
-                                    OUR TRUCKS, TOOLS, AND FACILITY are of the highest quality. This allows us to easily get to your home and perform the job as quickly as possible.
-
-                                    WE ABIDE BY THE RULES. Following all EPA laws is of the highest importance to us.
-
-                                    WE ARE AN AWARD WINNING COMPANY.</article>
-
+                                <p><strong>WE VALUE OUR CUSTOMERS.</strong> We acknowledge that without our customers, we would not be able to do what we do. Your comfort and happiness are of the highest importance to us.</p>
+                                <p><strong>JORDAN AIR HAS BEEN SERVING</strong> the surrounding Athens areas since 1993. This means that we are familiar with the area and the needs of our customers.</p>
+                                <p><strong>WE USE TOP QUALITY MATERIALS.</strong> We purchase only high quality products for service and installation, including Trane heating and cooling products.</p>
+                                <p><strong>WE ARE A DRUG FREE WORKPLACE</strong> in the state of Georgia. This allows you to have a peace of mind when we are in your home.</p>
+                                <p><strong>WE KEEP AN INVENTORY</strong> of hundreds of different parts to fit your specific unit. This saves you time and money.</p>
+                                <p><strong>WE ARE MEMBERS</strong> of the Athens Clarke County, Oconee County, Madison County, Jackson County, Taliaferro County, Greene County, and Oglethorpe County Chambers of Commerce. Economic development and growth and service in your area are important to us.</p>
+                                <p><strong>OUR TEAM</strong> is made up of skilled, certified professionals. You can rest assured that you are being well taken care of.</p>
+                                <p><strong>OUR TRUCKS, TOOLS, AND FACILITY</strong> are of the highest quality. This allows us to easily get to your home and perform the job as quickly as possible.</p>
+                                <p><strong>WE ABIDE BY THE RULES.</strong> Following all EPA laws is of the highest importance to us.</p>
+                                <p><strong>WE ARE AN AWARD WINNING COMPANY.</strong></p>
                                 <div className="jumbotron">
                                     <div className="list-items">
                                         <div className="list">
-                                            <li>Trane SOAR Award- Trane's top dealer in Georgia 2015</li>
-                                            <li>Trane Outstanding Performer Award 2014</li>
-                                            <li>Trane Gold Club Award 2008, 2009, 2010</li>
-                                            <li>Trane Comfort Specialist 2014</li>
-                                            <li>Georgia Power Heating and Cooling Parternship Award 2008, 2011</li>
-                                            <li>Tri-State Distributor's Most Improved Sales 2009, 2011</li>
-                                            <li>High Efficiency Award 2009</li>
+                                            <li>
+                                                <span className="icon fa fa-check"></span>Trane SOAR Award- Trane's top dealer in Georgia 2015</li>
+                                            <li>
+                                                <span className="icon fa fa-check"></span>Trane Outstanding Performer Award 2014</li>
+                                            <li>
+                                                <span className="icon fa fa-check"></span>Trane Gold Club Award 2008, 2009, 2010</li>
+                                            <li>
+                                                <span className="icon fa fa-check"></span>Trane Comfort Specialist 2014</li>
+                                            <li>
+                                                <span className="icon fa fa-check"></span>Georgia Power Heating and Cooling Parternship Award 2008, 2011</li>
+                                            <li>
+                                                <span className="icon fa fa-check"></span>Tri-State Distributor's Most Improved Sales 2009, 2011</li>
+                                            <li>
+                                                <span className="icon fa fa-check"></span>High Efficiency Award 2009</li>
 
                                         </div>
                                     </div>

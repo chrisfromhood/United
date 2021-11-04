@@ -8,6 +8,11 @@
     overflow: hidden;
 }
 
+.full-inner-banner .container {
+    z-index: 1;
+    text-shadow: 0 1px 4px #151515;
+}
+
 .full-inner-banner::before {
     content: "";
     position: absolute;

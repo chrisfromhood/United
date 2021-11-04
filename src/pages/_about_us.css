@@ -39,3 +39,31 @@
 .post-header img {
     max-width: 100%;
 }
+
+.post-content .h2, .post-content .h3, .post-content .h4, .post-content h2, .post-content h3, .post-content h4 {
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.25;
+}
+
+.post-content p {
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.45;
+    margin-bottom: 1.5rem;
+}
+
+.post-content .jumbotron {
+    background: #efefef;
+    border-radius: 3;
+    padding: 2rem;
+    line-height: 1.8;
+}
+
+.jumbotron .list-items .list li .icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: #b9d8e1;
+    font-size: 18px;
+}
