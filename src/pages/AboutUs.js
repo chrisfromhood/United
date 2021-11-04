@@ -68,26 +68,52 @@ function AboutUs() {
                                 <p><strong>WE PROVIDE ENERGY SOLUTIONS.</strong> This not only conserves energy, but saves you money.</p>
                                 <p><strong>WE PROVIDE EMERGENCY SERVICE.</strong> You never have to panic and can rest assured that we will be there to fix your system.</p>
 
-                                <blockquote className="blockquote text-center">
-                                    <p className="mb-0"><i className="fa fa-quote-left"></i> "I was very pleased with Zack Goodman. He was professional and thorough, and he offered helpful suggestions. I’m very pleased with your service. The maintenance check every six months gives me peace of mind that my systems are working properly."
-                                    </p>
-                                    <footer className="blockquote-footer">Albert Einstein <cite title="Source Title">genius</cite></footer>
+                                <hr id="customer-reviews" />
 
-                                </blockquote>
+                                <div className="quote-block text-center">
+                                    <span class="icon"><span class="fa fa-quote-left"></span></span>
+                                    <p> I was very pleased with Zack Goodman. He was professional and thorough, and he offered helpful suggestions. I’m very pleased with your service. The maintenance check every six months gives me peace of mind that my systems are working properly. </p>
+                                    <footer class="blockquote-footer"><cite title="Source Title">Jacquelin H.</cite></footer>
+                                    <div className="rating">
+                                        <span className="fas fa-star"></span>
+                                        <span className="fas fa-star"></span>
+                                        <span className="fas fa-star"></span>
+                                        <span className="fas fa-star"></span>
+                                        <span className="fas fa-star"></span>
+                                    </div>
+                                </div>
 
-                                <blockquote className="blockquote text-center">
-                                    <p className="mb-0"><i className="fa fa-quote-left"></i> "Absolutely wonderful! Wyatt and Jeremiah were professional, efficient, polite and I absolutely recommended Jordan Air."
-                                    </p>
-                                    <footer className="blockquote-footer">Albert Einstein <cite title="Source Title">genius</cite></footer>
+                                <hr id="customer-reviews" />
 
-                                </blockquote>
+                                <div className="quote-block text-center">
+                                    <span class="icon"><span class="fa fa-quote-left"></span></span>
+                                    <p> Absolutely wonderful! Wyatt and Jeremiah were professional, efficient, polite and I absolutely recommended Jordan Air. </p>
+                                    <footer class="blockquote-footer"><cite title="Source Title">Rebel S.</cite></footer>
+                                    <div className="rating">
+                                        <span className="fas fa-star"></span>
+                                        <span className="fas fa-star"></span>
+                                        <span className="fas fa-star"></span>
+                                        <span className="fas fa-star"></span>
+                                        <span className="fas fa-star"></span>
+                                    </div>
+                                </div>
 
-                                <blockquote className="blockquote text-center">
-                                    <p className="mb-0"><i className="fa fa-quote-left"></i> "Great service. Technicians very knowledgeable!"
-                                    </p>
-                                    <footer className="blockquote-footer">Albert Einstein <cite title="Source Title">genius</cite></footer>
+                                <hr id="customer-reviews" />
 
-                                </blockquote>
+                                <div className="quote-block text-center">
+                                    <span class="icon"><span class="fa fa-quote-left"></span></span>
+                                    <p> Great service. Technicians very knowledgeable!</p>
+                                    <footer class="blockquote-footer"><cite title="Source Title">Pamela H.</cite></footer>
+                                    <div className="rating">
+                                        <span className="fas fa-star"></span>
+                                        <span className="fas fa-star"></span>
+                                        <span className="fas fa-star"></span>
+                                        <span className="fas fa-star"></span>
+                                        <span className="fas fa-star"></span>
+                                    </div>
+                                </div>
+
+                                <hr id="customer-reviews" />
 
                                 <PostCTA></PostCTA>
                             </div>

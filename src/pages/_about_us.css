@@ -67,3 +67,29 @@
     color: #b9d8e1;
     font-size: 18px;
 }
+
+#customer-reviews {
+    margin: 3rem auto 4rem;
+    border-color: #d2d2d2;
+    }
+
+.post-content .quote-block {
+    margin-top: 50px;
+}
+
+.post-content .quote-block .icon {
+    display: block;
+    font-size: 30px;
+    color: #006937;
+    margin-bottom: 10px;
+}
+
+.post-content .quote-block .blockquote-footer {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #151515;
+}
+
+.post-content .quote-block .rating {
+    color: #f9ca15;
+}
