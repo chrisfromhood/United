@@ -11,7 +11,14 @@
     display: flex;
     justify-content: flex-end;
   }
-  
+
+  .right .info-items{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-right: 3rem;
+  }
+
   .footer-top .general-info .text {
     color: #fff;
     font-weight: 700;
@@ -22,31 +29,16 @@
 
   .footer-top .general-info .sub-text {
     font-family: "Open Sans", Helvetica, sans-serif;
-    display: block;
     text-transform: uppercase;
-    color: #fff; 
+    color: #fff;
     font-size: 1.4rem;
   }
-
-  .general-info .right .info-items {
-    margin-top: 0;
-}
-  .footer .footer-top .general-info .icon {
-    margin-right: 1rem;
-    color: #fff;
-    border: 2px solid #fff;
-    border-radius: 50px;
-}
 
   .general-info .info-items .icon .fas {
     height: 100%;
     font-size: 18px;
     color: #fff;
 }
-  
-  .info-items .text {
-    margin-right: 3rem;
-  }
   
   .footer-bottom {
     font-weight: 500;
