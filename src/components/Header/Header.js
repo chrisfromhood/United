@@ -36,72 +36,60 @@ function Header() {
             </div>
             <div className="header-bottom">
                 <div className="container">
+                    <nav className="navbar navbar-expand-lg navbar-light ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarText">
+                            <ul className="nav navbar-nav mx-auto">
+                                <li className="nav-item dropdown mr-4">
+                                    <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        SALES
+                                    </a>
+                                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a className="dropdown-item nav-link" href="http://localhost:3000/ac-installations">AIR CONDITIONER INSTALLATIONS</a>
+                                        <a className="dropdown-item nav-link" href="/">FURNACE INSTALATIONS</a>
 
-                    <div className="row">
-                        <div className="col-12">
-                            <nav className="navbar navbar-expand-lg navbar-light justify-items-start">
+                                    </div>
+                                </li>
+                                <li className="nav-item dropdown mr-4">
+                                    <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        REPAIRS
+                                    </a>
+                                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a className="dropdown-item" href="/">Action</a>
+                                        <a className="dropdown-item" href="/">Another action</a>
+                                    </div>
+                                </li>
+                                <li className="nav-item dropdown mr-4">
+                                    <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        PLUMBING
+                                    </a>
+                                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a className="dropdown-item" href="/">Action</a>
+                                        <a className="dropdown-item" href="/">Another action</a>
+                                    </div>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="http://localhost:3000/promotions">Promotions</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="/">Financing</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="http://localhost:3000/about-us">About Us</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="http://localhost:3000/contact-us">Contact us</a>
+                                </li>
 
-                                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span className="navbar-toggler-icon"></span>
-                                </button>
-
-                                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul className="navbar-nav mr-auto">
-
-                                        <li className="nav-item dropdown mr-4">
-                                            <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                SALES
-                                            </a>
-                                            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <a className="dropdown-item" href="http://localhost:3000/ac-installations">AIR CONDITIONER INSTALLATIONS</a>
-                                                <a className="dropdown-item" href="/">FURNACE INSTALATIONS</a>
-
-                                            </div>
-                                        </li>
-                                        <li className="nav-item dropdown mr-4">
-                                            <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                REPAIRS
-                                            </a>
-                                            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <a className="dropdown-item" href="/">Action</a>
-                                                <a className="dropdown-item" href="/">Another action</a>
-                                            </div>
-                                        </li>
-                                        <li className="nav-item dropdown mr-4">
-                                            <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                PLUMBING
-                                            </a>
-                                            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <a className="dropdown-item" href="/">Action</a>
-                                                <a className="dropdown-item" href="/">Another action</a>
-                                            </div>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="http://localhost:3000/promotions">Promotions</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="/">Financing</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="http://localhost:3000/about-us">About Us</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="http://localhost:3000/contact-us">Contact us</a>
-                                        </li>
-
-                                    </ul>
-
-                                </div>
-                            </nav>
+                            </ul>
                         </div>
-
-
-
-                    </div>
+                    </nav>
                 </div>
             </div>
 
-        </header>
+        </header >
     );
 }
 export default Header;

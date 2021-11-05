@@ -6,6 +6,7 @@
     background-size: cover;
     background-image:url(https://cdn.searchkings.ca/img/post-inner-full/ac-hero-banner-92abbfb1f3.jpg);
     overflow: hidden;
+    min-height: 730px;
 }
 
 .full-inner-banner .container {
@@ -68,12 +69,23 @@
     transition: all .3s;
 }
 
+.full-inner-banner .row {
+    
+}
+
 @media (min-width: 992px) {
     .full-inner-banner .full-inner-slab-button {
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 16px;
 }}
+
+.full-inner-content .post-content {
+    padding: 30px 50px 15px;
+    border-radius: 0;
+    overflow: hidden;
+    box-shadow: 1px 6px 20px 0 rgba(0,0,0,17%);
+} 
 
 .full-inner-content .post-content .post-header {
     text-align: center;
@@ -92,10 +104,21 @@
     border-radius: 0;
 }
 
+.full-inner-content .post-content .tab-section>ul>li a {
+    font-size: 2rem;
+    padding: 1rem
+}
+
 .full-inner-content .post-content .tab-section>ul>li .active {
     border-radius: 0;
     background-color: #151515;
     position: relative;
+}
+
+.full-inner-content .post-content .tab-section>ul>li a {
+    line-height: 1.2;
+    color: #fff;
+    height: 100%;
 }
 
 .full-inner-content .post-content .post-header h2 {
