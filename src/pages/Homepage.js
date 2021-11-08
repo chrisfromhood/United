@@ -24,35 +24,57 @@ function Homepage() {
                   <li className="list-group-item-info">Licensed, bonded, insured</li>
                 </ul>
                 <button type="button" className="btn btn-info">Connect with a specialist &gt;&gt;</button>
-
               </div>
-
             </div>
           </div>
         </div>
       </section>
 
       <section className="promo">
+
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-12 align-self-center">
-              <h3 className="sub-heading">Take advantage of our new promotion</h3>
-              <h2>0% FINANCING FOR 72 MONTHS ON NEW SYSTEMS</h2>
+              <div className="promo-content">
+                <div className="promo-content-icon">
+                  <span class="fas fa-tags"></span>
+                </div>
+                <div className="heading">Take advantage of our new promotion</div>
+                <div className="sub-heading">0% FINANCING FOR 72 MONTHS ON NEW SYSTEMS</div>
+              </div>
             </div>
+
             <div className="col-lg-4 col-md-6 col-sm-8 align-self-center">
-              <ul className="list-group">
-                <a className="promo-btn" href="/">AIR CONDITIONER INSTALLATIONS</a>
-                <a className="promo-btn" href="/">FURNACE INSTALLATIONS</a>
-                <a className="promo-btn" href="/">PLUMBING</a>
-              </ul>
+
+              <a className="promo-btn special" href="/">
+                <div className="text">Air conditioner Installations</div>
+                <span className="icon cooling">
+                  <span className="fas fa-snowflake"></span>
+                </span>
+              </a>
+
+              <a className="promo-btn special" href="/">
+                <div className="text">Furnace Installations</div>
+                <span className="icon heating">
+                  <span className="fas fa-fire"></span>
+                </span>
+              </a>
+
+              <a className="promo-btn special" href="/">
+                <div className="text">Plumbing</div>
+                <span className="icon plumbing">
+                  <span className="fas fa-wrench"></span>
+                </span>
+              </a>
 
             </div>
+
+
           </div>
         </div>
       </section>
 
       <BaseContent></BaseContent>
-
 
       <Footer></Footer>
 

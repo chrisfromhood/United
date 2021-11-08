@@ -29,10 +29,6 @@
   text-shadow: 1px 1px 2px #006937;
 }
 
-
-
-
-
 .navbar-light .navbar-nav .nav-link {
   font-size: 1.6rem;
   color: #151515;
@@ -43,25 +39,89 @@
   align-items: center;
 }
 
+/* PROMO SECTION */
+
 .promo {
   background: #006937;
   color: #fff;
   font-weight: 200;
-  display: block;
-  padding: 1.5rem;
+  display: flex;
+  padding: 1.5rem 0;
+}
+
+.promo-content {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 0.05fr 095fr;
+}
+
+.promo-content-icon {
+  grid-row: 2/-1;
+  grid-column:1/2;    
+  font-size: 2.5rem;
+  margin-right: 0.5rem;
+}
+
+.promo-content .heading {
+  grid-row: 1/2;
+  grid-column:2/-1;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.promo-content .sub-heading {
+  grid-row: 2/-1;
+  grid-column:2/-1;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* PROMO-BUTTONS */
+
+.promo .special {
+  color: #151515;
+  padding: 0.3rem;
 }
 
 .promo-btn {
 background-color: #fff;
-text-decoration: none;
-line-height: 1.1;
-padding: 1.2rem;
 border-radius: 6rem;
+text-transform: uppercase;
 font-weight: 700;
-font-size: 1.6rem;
-text-align: center;
 margin: 1rem 0;
-display: inline-block;
 transition: all .3s;
-color:#151515;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.promo-btn .text {
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.promo .special .cooling {
+  background-color: #007bff;
+}
+
+.promo .special .heating {
+  background-color: #dc3545;
+}
+
+.promo .special .plumbing {
+  background-color: #020202;
+}
+
+.promo .special .icon {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
 }

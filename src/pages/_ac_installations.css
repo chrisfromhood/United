@@ -69,10 +69,6 @@
     transition: all .3s;
 }
 
-.full-inner-banner .row {
-    
-}
-
 @media (min-width: 992px) {
     .full-inner-banner .full-inner-slab-button {
     margin-top: 50px;

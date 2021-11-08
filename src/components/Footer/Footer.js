@@ -20,14 +20,14 @@ function Footer() {
                                     <span className="text">
                                         <span className="sub-text">Our Location</span> <br /> Local Service </span>
                                 </div>
-                                <div className="info-items phone">
-                                    <a href="tel:706-995-7485">
-                                        <span className="icon"><span className="fas fa-phone-alt"></span> </span></a>
+                                <a className="info-items phone" href="tel:706-995-7485">
+
+                                    <span className="icon"><span className="fas fa-phone-alt"></span> </span>
                                     <span className="text">
                                         <span className="sub-text">
                                             CALL US NOW</span> <br /> 706-995-7485  </span>
 
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
