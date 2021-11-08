@@ -1,0 +1,52 @@
+.inner-page-header {
+    background: #525252 url(https://cdn.searchkings.ca/img/assets/hero-banner-50083d4d6b.jpg) no-repeat;
+    background-position: center 75%;
+    background-size: cover;
+    min-height: 150px;
+}
+
+.inner-page-header .fill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 150px;
+    background: rgba(0,0,0,.8);
+}
+
+.inner-page-header h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.contact-info {
+    position: relative;
+    background: #fff;
+}
+
+.contact-info .inner {
+    padding: 30px;
+    border: 2px solid #006937;
+}
+
+.contact-info .inner .text {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.post-content p {
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.45;
+    margin-bottom: 1.5rem;
+}
+
+.s-box-wrapper .s-box-large {
+    padding: 2.5rem;
+    color: #fff;
+    background: #006937;
+    text-transform: uppercase;
+    box-shadow: 0 3px 8px #ccc;
+}

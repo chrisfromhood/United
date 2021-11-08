@@ -1,0 +1,95 @@
+.inner-page-header {
+    background: #525252 url(https://cdn.searchkings.ca/img/assets/hero-banner-50083d4d6b.jpg) no-repeat;
+    background-position: center 75%;
+    background-size: cover;
+    min-height: 150px;
+}
+
+.inner-page-header .fill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 150px;
+    background: rgba(0,0,0,.8);
+}
+
+.inner-page-header h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.post-parallax {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #777;
+}
+
+.inner-page-content .post-header {
+    min-height: 267px;
+}
+
+.post-header img {
+    max-width: 100%;
+}
+
+.post-content .h2, .post-content .h3, .post-content .h4, .post-content h2, .post-content h3, .post-content h4 {
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.25;
+}
+
+.post-content p {
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.45;
+    margin-bottom: 1.5rem;
+}
+
+.post-content .jumbotron {
+    background: #efefef;
+    border-radius: 3;
+    padding: 2rem;
+    line-height: 1.8;
+}
+
+.jumbotron .list-items .list li .icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: #b9d8e1;
+    font-size: 18px;
+}
+
+#customer-reviews {
+    margin: 3rem auto 4rem;
+    border-color: #d2d2d2;
+    }
+
+.post-content .quote-block {
+    margin-top: 50px;
+}
+
+.post-content .quote-block .icon {
+    display: block;
+    font-size: 30px;
+    color: #006937;
+    margin-bottom: 10px;
+}
+
+.post-content .quote-block .blockquote-footer {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #151515;
+}
+
+.post-content .quote-block .rating {
+    color: #f9ca15;
+}

@@ -1,53 +1,182 @@
-/* -----COLORS----- */
-:root {
-  --color-accent-blue: #109cf1;
-  --color-yellow: #ffb946;
-  --color-red: #f7685b;
-  --color-green: #2ed47a;
-  --color-purple: #885af8;
+/* SECTION-HERO */
 
-  --color-table-black: #323c47;
-  --color-black: #192a3e;
-
-  --color-table-gray: #707683;
-  --color-dark-blue: #334d6e;
-  --color-gray: #90a0b7;
-  --color-gray-icon: #c2cfe0;
-  --color-white: #ffffff;
-
-  --color-neutral-divider: #ebeff2;
-
-  --color-neutral-gray: #6a707e;
-  --color-background-gray: #F5F6F8;
-  --color-neutral-dark-gray: #4C5862;
-  --color-textual-gray:#818E9B;
-  
- 
+.section-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.searchkings.ca/img/assets/hero-banner-50083d4d6b.jpg');
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 58rem;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 2px #006937;
+  margin-top: 5rem; 
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+.hero-text-box .since,
+.hero-text-box .heading-primary {
+  text-transform: uppercase;
 }
 
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
+.hero-text-box .since {
+  font-size: 2rem;
+  margin-bottom: .75rem;
+  letter-spacing: .15rem;
 }
 
-body {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 1.3rem;
+.heading-primary{
+  font-size: 5.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #eee; 
 }
+
+/* LIST GROUP */
+
+.list-wrapper {
+  margin-bottom: 3rem;
+}
+
+.list-grid {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 2rem;
+}
+
+.list-wrapper .list-item {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-left: 8rem;
+  display: flex;
+  align-items: center;
+}
+
+.list-wrapper .list-item .fas {
+  font-size: 1.6rem;
+  color: #b9d8e1;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+/* MAIN BUTTON */
+.hero-text-box .main-btn {
+  font-size: 2rem;
+  text-shadow: none;
+  line-height: 1.2;
+  font-weight: 700;
+  display: inline-flex;
+  margin-bottom: 0;
+  align-items: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  padding: 1.2rem 2rem;
+  border-radius: 3px;
+  background-color: #b9d8e1;
+  color: #151515;
+  transition: all .5s ease;
+  background-image: none;
+}
+
+.hero-text-box .main-btn:focus, 
+.hero-text-box .main-btn:hover {
+  background-color: #000;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/* PROMO SECTION */
+
+.promo {
+  background: #006937;
+  color: #fff;
+  font-weight: 200;
+  display: flex;
+  padding: 1.5rem 0;
+}
+
+.promo-content {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 0.05fr 095fr;
+}
+
+.promo-content-icon {
+  grid-row: 2/-1;
+  grid-column:1/2;    
+  font-size: 2.5rem;
+  margin-right: 0.5rem;
+}
+
+.promo-content .heading {
+  grid-row: 1/2;
+  grid-column:2/-1;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.promo-content .sub-heading {
+  grid-row: 2/-1;
+  grid-column:2/-1;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* PROMO-BUTTONS */
+
+.promo .special {
+  color: #151515;
+  padding: 0.3rem;
+}
+
+.promo-btn {
+background-color: #fff;
+border-radius: 6rem;
+text-transform: uppercase;
+font-weight: 700;
+margin: 1rem 0;
+transition: all .3s;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.promo-btn .text {
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.promo .special .cooling {
+  background-color: #007bff;
+}
+
+.promo .special .heating {
+  background-color: #dc3545;
+}
+
+.promo .special .plumbing {
+  background-color: #020202;
+}
+
+.promo .special .icon {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+}
+

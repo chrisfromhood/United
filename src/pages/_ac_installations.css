@@ -1,0 +1,284 @@
+.full-inner-banner {
+    position: relative;
+    color: #fff;
+    background: #006937;
+    background-position: bottom center;
+    background-size: cover;
+    background-image:url(https://cdn.searchkings.ca/img/post-inner-full/ac-hero-banner-92abbfb1f3.jpg);
+    overflow: hidden;
+    min-height: 730px;
+}
+
+.full-inner-banner .container {
+    z-index: 1;
+    text-shadow: 0 1px 4px #151515;
+}
+
+.full-inner-banner::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(21,21,21,.8);
+    mix-blend-mode: multiply;
+}
+
+.full-inner-banner h1 {
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.full-inner-banner p {
+    font-size: 24px;
+}
+
+.full-inner-banner .hero-promo {
+    background: #006937 url(https://cdn.searchkings.ca/img/post-inner-full/card-pattern-3d5fef1096.png) no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 2rem;
+    padding: 3rem;
+}
+
+.full-inner-banner .hero-promo .h2 {
+    font-weight: 300;
+    font-size: 38px;
+    display: block;
+    margin-bottom: 1rem
+}
+
+.full-inner-slab-button .text {
+    line-height: 1.2;
+    padding-right: 5px;
+}
+
+.full-inner-slab-button {
+    display: inline-block;
+    background: #fff;
+    color: #151515;
+    border-radius: 60px;
+    font-weight: 600;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+@media (min-width: 992px) {
+    .full-inner-banner .full-inner-slab-button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 16px;
+}}
+
+.full-inner-content .post-content {
+    padding: 30px 50px 15px;
+    border-radius: 0;
+    overflow: hidden;
+    box-shadow: 1px 6px 20px 0 rgba(0,0,0,17%);
+} 
+
+.full-inner-content .post-content .post-header {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.post-header {
+    margin-bottom: 3rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.full-inner-content .post-content .tab-section>ul>li {
+    background-color: #006937;
+    border: 1px solid #eeeef7;
+    border-radius: 0;
+}
+
+.full-inner-content .post-content .tab-section>ul>li a {
+    font-size: 2rem;
+    padding: 1rem
+}
+
+.full-inner-content .post-content .tab-section>ul>li .active {
+    border-radius: 0;
+    background-color: #151515;
+    position: relative;
+}
+
+.full-inner-content .post-content .tab-section>ul>li a {
+    line-height: 1.2;
+    color: #fff;
+    height: 100%;
+}
+
+.full-inner-content .post-content .post-header h2 {
+    color: #006937;
+    line-height: 1.2;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.full-inner-content .post-content .tab-section .tab-pane::before {
+    content: "";
+    display: block;
+    height: 50px;
+    margin: -50px 0 0;
+}
+
+@media (min-width: 576px) {
+.full-inner-content .post-content .tab-section .tab-image {
+    margin: 30px auto 20px;
+}}
+
+.big-list li {
+    font-size: 25px;
+    line-height: 1.2;
+    margin: 30px 30px 30px 50px;
+}
+
+.full-inner-content .post-content .big-list {
+    background-color: #1f3f49;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 20px solid #006937;
+    color: #fff;
+    padding: 1px 2px;
+    margin-bottom: 15px;
+}
+
+.full-inner-content .post-content .highlight {
+    color: #dc3545;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    line-height: 1.25;
+    font-size: 1.7em;
+}
+
+.post-content .jumbotron .list-items {
+    padding: 10px 20px;
+}
+
+.post-content .jumbotron .list-items .list {
+    font-size: 1.65rem;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.post-content .jumbotron .list-items .list li {
+    margin: 1.2rem 0 1.5rem;
+    list-style: none;
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+.post-end {
+    box-shadow: 1px 6px 20px 0 rgba(0,0,0,17%);
+    background-color: #151515;
+    padding: 30px 50px;
+    margin-bottom: 30px;
+    color: #fff;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.post-end .h3 {
+    font-size: 28px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+.full-inner-testimonial {
+    position:relative;
+    background: url(https://cdn.searchkings.ca/img/post-inner-full/testimonial-img-9af01208a4.jpg) no-repeat center;
+    background-size: cover;
+    box-shadow: 1px 6px 20px 0 rgba(0,0,0,17%);
+    border-radius: 20px;
+    padding: 0 40px;
+    overflow: hidden;
+}
+
+.image-wrapper {
+    position: relative;
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .google-review-badge {
+  position: absolute;
+  left:50px;
+  right: 0;
+  bottom: 30px;
+}}
+
+.image-wrapper .google-review-badge {
+    background: rgba(255,255,255,.8);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.testimonial-family {
+    max-width: 300px;
+}
+
+.carousel-item .name {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+
+
+.carousel-item .rating {
+    color: #f3af00;
+}
+
+.carousel-inner::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+@media (min-width: 768px) {
+.full-inner-testimonial .carousel {
+    padding: 35px 40px;
+}
+}
+
+.full-inner-testimonial .carousel {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 30px 0 rgba(60,60,60,17%);
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.full-inner-testimonial .carousel-indicators li {
+    background-color: rgba(0,105,55,.5);
+}
+
+.full-inner-testimonial .carousel-indicators li active {
+    background-color: #006937;
+}
