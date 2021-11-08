@@ -1,43 +1,97 @@
+/* SECTION-HERO */
+
 .section-hero {
-  background: url(https://cdn.searchkings.ca/img/assets/hero-banner-50083d4d6b.jpg) no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.searchkings.ca/img/assets/hero-banner-50083d4d6b.jpg');
   background-position: bottom center;
   background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 58rem;
 }
 
 .hero-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 5rem 0;
   text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 2px #006937;
+  margin-top: 5rem; 
 }
 
-.hero-text-box ul {
-  display: flex;
-  align-content: center;
-  justify-content: center;
+.hero-text-box .since,
+.hero-text-box .heading-primary {
+  text-transform: uppercase;
 }
 
-.hero-text-box ul li {
-  padding: 1rem;
-  margin: 0.8rem;
+.hero-text-box .since {
+  font-size: 2rem;
+  margin-bottom: .75rem;
+  letter-spacing: .15rem;
 }
 
 .heading-primary{
-  text-transform: uppercase;
   font-size: 5.5rem;
   line-height: 1.2;
   font-weight: 800;
-  color: #eee;
-  text-shadow: 1px 1px 2px #006937;
+  color: #eee; 
 }
 
-.navbar-light .navbar-nav .nav-link {
-  font-size: 1.6rem;
-  color: #151515;
-  text-transform: uppercase;
-  margin-right: 1.6rem;
+/* LIST GROUP */
+
+.list-wrapper {
+  margin-bottom: 3rem;
+}
+
+.list-grid {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 2rem;
+}
+
+.list-wrapper .list-item {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-left: 8rem;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
+
+.list-wrapper .list-item .fas {
+  font-size: 1.6rem;
+  color: #b9d8e1;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+/* MAIN BUTTON */
+.hero-text-box .main-btn {
+  font-size: 2rem;
+  text-shadow: none;
+  line-height: 1.2;
+  font-weight: 700;
+  display: inline-flex;
+  margin-bottom: 0;
+  align-items: center;
+  touch-action: manipulation;
+  cursor: pointer;
+  padding: 1.2rem 2rem;
+  border-radius: 3px;
+  background-color: #b9d8e1;
+  color: #151515;
+  transition: all .5s ease;
+  background-image: none;
+}
+
+.hero-text-box .main-btn:focus, 
+.hero-text-box .main-btn:hover {
+  background-color: #000;
+  text-decoration: none;
+  color: #fff;
+}
+
 
 /* PROMO SECTION */
 
@@ -73,7 +127,7 @@
 .promo-content .sub-heading {
   grid-row: 2/-1;
   grid-column:2/-1;
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -125,3 +179,4 @@ align-items: center;
   color: #fff;
   font-size: 2rem;
 }
+

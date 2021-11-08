@@ -9,21 +9,29 @@ function Homepage() {
       <Header></Header>
 
       <section className="section-hero">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row justify-content-md-center">
             <div className="col-lg-8">
               <div className="hero-text-box">
-                <h3>LOCALLY OWNED & OPERATED SINCE 1993</h3>
+                <h4 className="since">LOCALLY OWNED & OPERATED SINCE 1993</h4>
                 <h1 className="heading-primary">Heating ventilation, air conditioning and plumbing</h1>
-                <ul className="list-group list-group-horizontal">
-                  <li className="list-group-item-info">Award-winning</li>
-                  <li className="list-group-item-info">Top-quality materials</li>
-                </ul>
-                <ul className="list-group list-group-horizontal">
-                  <li className="list-group-item-info">Trained, certified tehnicians</li>
-                  <li className="list-group-item-info">Licensed, bonded, insured</li>
-                </ul>
-                <button type="button" className="btn btn-info">Connect with a specialist &gt;&gt;</button>
+                <div className="list-wrapper">
+                  <ul className="list-grid">
+                    <li className="list-item">
+                      <span className="fas fa-check"></span>Award-winning
+                    </li>
+                    <li className="list-item">
+                      <span className="fas fa-check"></span>Top-quality materials
+                    </li>
+                    <li className="list-item">
+                      <span className="fas fa-check"></span>Trained, certified tehnicians
+                    </li>
+                    <li className="list-item">
+                      <span className="fas fa-check"></span>Licensed, bonded, insured
+                    </li>
+                  </ul>
+                </div>
+                <a type="button" className="main-btn" href="http://localhost:3000/contact-us">Connect with a specialist <span className="fa fa-angle-double-right"></span></a>
               </div>
             </div>
           </div>
