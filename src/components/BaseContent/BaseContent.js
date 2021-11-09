@@ -52,12 +52,17 @@ function BaseContent() {
             <section className="why-us py-0">
                 <div className="container-fluid why-us-bg-color">
                     <div className="row">
-                        <div className="col-lg-6 px-0 position-relative">
+                        <div className="col-lg-6 px-0">
                             <div className="bg-holder"></div>
                         </div>
                         <div className="col-lg-6">
+
+                        </div>
+                        <div className="container">
                             <div className="row">
-                                <div className="col-11 col-sm-10">
+                                <div className="col-lg-6">
+                                </div>
+                                <div className="col-lg-6">
                                     <div className="right-side-text">
                                         <div className="why-us_heading">Why Choose us</div>
                                         <p className="why-us_p">Jordan Air provides residential heating ventilation, plumbing and air conditioning services. We have provided quality HVAC services and repairs to our community since 1993. </p>
@@ -76,26 +81,28 @@ function BaseContent() {
                     </div>
                 </div>
             </section>
-
-            <div className="testimonial-wrapper container">
-                <div className="row justify-content-center">
-                    <div className="col-12 col-md-2 icon text-center align-self-center">
-                        <span className="fas fa-quote-left"></span>
-                    </div>
-                    <div className="col-12 col-md-6 col-lg-7 quote align-self-center">
-                        <blockquote className="blockquote">
-                            <p className="user-quote">"I was very pleased with Zack Goodman. He was professional and thorough, and he offered helpful suggestions. I’m very pleased with your service. The maintenance check every six months gives me peace of mind that my systems are working properly."</p>
-                            <footer className="blockquote-footer">
-                                <cite title="Source Title">Jacquelin H.</cite>
-                            </footer>
-                        </blockquote>
-                    </div>
-                    <div className="col-12 col-md-4 col-lg-3 text-center btn-cta align-self-center">
-                        <a href="/about-us#customer-reviews" className="btn-oval">READ MORE
-                            <span className="fa fa-angle-double-right"></span></a>
+            <div className="bg-image">
+                <div className="testimonial-wrapper">
+                    <div className="row justify-content-center">
+                        <div className="col-12 col-md-2 icon text-center align-self-center">
+                            <span className="fas fa-quote-left"></span>
+                        </div>
+                        <div className="col-12 col-md-6 col-lg-7 quote align-self-center">
+                            <blockquote className="blockquote">
+                                <p className="user-quote">"I was very pleased with Zack Goodman. He was professional and thorough, and he offered helpful suggestions. I’m very pleased with your service. The maintenance check every six months gives me peace of mind that my systems are working properly."</p>
+                                <footer className="blockquote-footer">
+                                    <cite title="Source Title">Jacquelin H.</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <div className="col-12 col-md-4 col-lg-3 text-center btn-cta align-self-center">
+                            <a href="/about-us#customer-reviews" className="btn-oval">READ MORE
+                                <span className="fa fa-angle-double-right"></span></a>
+                        </div>
                     </div>
                 </div>
             </div>
+
 
             <section className="resources-section">
                 <div className="container">
@@ -107,10 +114,10 @@ function BaseContent() {
                             <img data-src="https://cdn.searchkings.ca/img/badges/facebook-reviews-f8f17ebab9.png" alt="" src="https://cdn.searchkings.ca/img/badges/facebook-reviews-f8f17ebab9.png" data-was-processed="true" />
                             <img data-src="https://cdn.searchkings.ca/img/badges/trane-comfort-specialist-shield-539c7f9f8b.png" alt="Trane Comfort Specialist" src="https://cdn.searchkings.ca/img/badges/trane-comfort-specialist-shield-539c7f9f8b.png" data-was-processed="true" />
                         </div>
-
                     </div>
                 </div>
             </section>
+
         </div>
     );
 }
