@@ -62,17 +62,6 @@
   margin-right: 1.2rem;
 }
 
-/* NAV-MENU PROVERITI!!!!!!! */
-.navbar-light .navbar-nav .nav-link {
-  font-size: 1.6rem;
-  color: #151515;
-  text-transform: uppercase;
-  margin-right: 1.6rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .header-info .info-items a:hover {
   text-decoration: none;
 }
@@ -113,3 +102,14 @@
     padding: 3rem 0;
   }
 
+/* NAV-MENU PROVERITI!!!!!!! */
+.navbar-light .navbar-nav .nav-link {
+  font-size: 1.6rem;
+  color: #151515;
+  text-transform: uppercase;
+  margin-right: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.4rem 2.6rem;
+}

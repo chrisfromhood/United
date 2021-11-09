@@ -1,4 +1,6 @@
 import "../BaseContent/_BaseContent.css";
+import "../CTA/Resources";
+import Resources from "../CTA/Resources";
 
 function BaseContent() {
     return (
@@ -8,39 +10,44 @@ function BaseContent() {
                     <div className="box-wrapper col-12">
                         <div className="h2-text"><strong>24/7 EXPERT SERVICES IN LOCAL SERVICE</strong></div>
                         <div className="row align-items-start">
+
                             <div className="col-lg-3 col-6 item">
-                                <div className="card my-5">
-                                    <img src="https://cdn.searchkings.ca/img/services/trane-furnace-c1e46c4293.jpg" className="card-img-top " alt="..." />
-                                    <div className="card-body bg-success ">
-                                        <h4 className="card-title font-weight-bold text-center text-uppercase">Furnances</h4>
-                                    </div>
+                                <div className="card-style">
+                                    <a className="service-link" href="/">
+                                        <span className="overlay"></span>
+                                        <img src="https://cdn.searchkings.ca/img/services/trane-furnace-c1e46c4293.jpg" className="card-img-top " alt="..." />
+                                        <h4 className="service-title">Furnances</h4>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="col-lg-3 col-6 item">
-                                <div className="card my-5">
-                                    <img src="https://cdn.searchkings.ca/img/services/trane-air-quality-6e8f047f16.jpg" className="card-img-top " alt="..." />
-                                    <div className="card-body bg-success ">
-                                        <h4 className="card-title font-weight-bold text-center text-uppercase">Air quality</h4>
-                                    </div>
+                                <div className="card-style">
+                                    <a className="service-link" href="/">
+                                        <span className="overlay"></span>
+                                        <img src="https://cdn.searchkings.ca/img/services/trane-air-quality-6e8f047f16.jpg" className="card-img-top " alt="..." />
+                                        <h4 className="service-title">Air quality</h4>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="col-lg-3 col-6 item">
-                                <div className="card my-5">
-                                    <img src="https://cdn.searchkings.ca/img/services/trane-ac-6d23ab4053.jpg" className="card-img-top " alt="..." />
-                                    <div className="card-body bg-success ">
-                                        <h4 className="card-title font-weight-bold text-center text-uppercase">Air Condition</h4>
-                                    </div>
+                                <div className="card-style">
+                                    <a className="service-link" href="/">
+                                        <span className="overlay"></span>
+                                        <img src="https://cdn.searchkings.ca/img/services/trane-ac-6d23ab4053.jpg" className="card-img-top " alt="..." />
+                                        <h4 className="service-title">Air Condition</h4>
+                                    </a>
                                 </div>
                             </div>
 
                             <div className="col-lg-3 col-6 item">
-                                <div className="card my-5">
-                                    <img src="https://cdn.searchkings.ca/img/services/trane-water-heaters-315d322903.jpg" className="card-img-top " alt="..." />
-                                    <div className="card-body bg-success ">
-                                        <h4 className="card-title font-weight-bold text-center text-uppercase">Water heaters</h4>
-                                    </div>
+                                <div className="card-style">
+                                    <a className="service-link" href="/">
+                                        <span className="overlay"></span>
+                                        <img src="https://cdn.searchkings.ca/img/services/trane-water-heaters-315d322903.jpg" className="card-img-top " alt="..." />
+                                        <h4 className="service-title">Water heaters</h4>
+                                    </a>
                                 </div>
                             </div>
 
@@ -55,13 +62,10 @@ function BaseContent() {
                         <div className="col-lg-6 px-0">
                             <div className="bg-holder"></div>
                         </div>
-                        <div className="col-lg-6">
-
-                        </div>
+                        <div className="col-lg-6"></div>
                         <div className="container">
                             <div className="row">
-                                <div className="col-lg-6">
-                                </div>
+                                <div className="col-lg-6"></div>
                                 <div className="col-lg-6">
                                     <div className="right-side-text">
                                         <div className="why-us_heading">Why Choose us</div>
@@ -103,20 +107,7 @@ function BaseContent() {
                 </div>
             </div>
 
-
-            <section className="resources-section">
-                <div className="container">
-                    <div className="row justify-content-center text-center">
-                        <div className="col badges align-self-center text-center">
-                            <img data-src="https://cdn.searchkings.ca/img/badges/bbb-a-plus-v-416c877c89.png" alt="Better Business Bureau" src="https://cdn.searchkings.ca/img/badges/bbb-a-plus-v-416c877c89.png" data-was-processed="true" />
-                            <img data-src="https://cdn.searchkings.ca/img/badges/home-advisor-1ca28017c0.png" alt="Home Advisor" src="https://cdn.searchkings.ca/img/badges/home-advisor-1ca28017c0.png" data-was-processed="true" />
-                            <img data-src="https://cdn.searchkings.ca/img/badges/super-service-c37e073c9c.png" alt="" src="https://cdn.searchkings.ca/img/badges/super-service-c37e073c9c.png" data-was-processed="true" />
-                            <img data-src="https://cdn.searchkings.ca/img/badges/facebook-reviews-f8f17ebab9.png" alt="" src="https://cdn.searchkings.ca/img/badges/facebook-reviews-f8f17ebab9.png" data-was-processed="true" />
-                            <img data-src="https://cdn.searchkings.ca/img/badges/trane-comfort-specialist-shield-539c7f9f8b.png" alt="Trane Comfort Specialist" src="https://cdn.searchkings.ca/img/badges/trane-comfort-specialist-shield-539c7f9f8b.png" data-was-processed="true" />
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <Resources></Resources>
 
         </div>
     );

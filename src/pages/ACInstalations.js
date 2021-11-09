@@ -1,6 +1,7 @@
 import "./_ac_installations.css";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
+import Resources from "../components/CTA/Resources";
 
 function ACInstalations() {
     return (
@@ -20,7 +21,7 @@ function ACInstalations() {
                                 </div>
                                 <a className="full-inner-slab-button" href="http://localhost:3000/contact-us">
                                     <span className="text">Speak with a home comfort specialist to learn more</span>
-                                    <span className="icon"></span>
+                                    <span className="icon fas fa-arrow-circle-right"></span>
                                 </a>
                             </div>
                         </div>
@@ -203,6 +204,7 @@ function ACInstalations() {
                         </div>
                     </div>
                 </div>
+                <Resources></Resources>
             </div>
 
             <Footer></Footer>

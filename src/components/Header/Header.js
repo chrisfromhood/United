@@ -46,7 +46,7 @@ function Header() {
                             </button>
                             <div class="collapse navbar-collapse" id="navbarText">
                                 <ul className="nav navbar-nav mx-auto">
-                                    <li className="nav-item dropdown mr-4">
+                                    <li className="nav-item dropdown">
                                         <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             SALES
                                         </a>
@@ -56,7 +56,7 @@ function Header() {
 
                                         </div>
                                     </li>
-                                    <li className="nav-item dropdown mr-4">
+                                    <li className="nav-item dropdown">
                                         <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             REPAIRS
                                         </a>
@@ -65,7 +65,7 @@ function Header() {
                                             <a className="dropdown-item" href="/">Another action</a>
                                         </div>
                                     </li>
-                                    <li className="nav-item dropdown mr-4">
+                                    <li className="nav-item dropdown">
                                         <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             PLUMBING
                                         </a>

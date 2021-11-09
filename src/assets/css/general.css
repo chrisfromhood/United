@@ -116,7 +116,7 @@ Medium: 11px
     font-weight: 800;
   }
 
-  h1, h2, h3, h4, h5, h6, ol, p, ul {
+  h1, h2, h3, h5, h6, ol, p, ul {
     margin-top: 0;
     margin-bottom: 1rem;
 }

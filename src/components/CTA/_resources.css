@@ -1,0 +1,14 @@
+/* RESOURCES SECTION - BADGES */
+
+.resources-section {
+    padding: 4rem 0;
+    border-bottom: 1px solid #eee;
+    background-image: url("https://cdn.searchkings.ca/img/assets/waves-background-4c2d6a1f3f.jpg");
+    background: center cover no-repeat; 
+  }
+  
+  .badges img {
+    max-width: 100%;
+    height: auto;
+    padding: 1rem 2rem;
+  }

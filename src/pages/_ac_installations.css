@@ -1,3 +1,4 @@
+/* HERO CONTENT */
 .full-inner-banner {
     position: relative;
     color: #fff;
@@ -25,14 +26,24 @@
     mix-blend-mode: multiply;
 }
 
+.full-inner-banner .row {
+    min-height: 73rem;
+}
+
 .full-inner-banner h1 {
-    font-size: 60px;
+    font-size: 6rem;
     font-weight: 300;
     text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.full-inner-banner h1 strong {
+    font-weight: 700;
 }
 
 .full-inner-banner p {
-    font-size: 24px;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
 }
 
 .full-inner-banner .hero-promo {
@@ -41,6 +52,7 @@
     overflow: hidden;
     border-radius: 2rem;
     padding: 3rem;
+    margin-top: 4rem;
 }
 
 .full-inner-banner .hero-promo .h2 {
@@ -50,9 +62,19 @@
     margin-bottom: 1rem
 }
 
+/* BUTTON */
+
 .full-inner-slab-button .text {
     line-height: 1.2;
-    padding-right: 5px;
+    padding-right: .5rem;
+}
+
+.full-inner-slab-button .icon {
+    font-size: 3.8rem;
+    display: inline-flex;
+    align-items: center; 
+    margin: 5px;
+    margin-right: -12px;
 }
 
 .full-inner-slab-button {
