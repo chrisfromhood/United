@@ -49,17 +49,28 @@ function BaseContent() {
                 </div>
             </section>
 
-            <section className="why-us">
-                <div className="container">
+            <section className="why-us py-0">
+                <div className="container-fluid why-us-bg-color">
                     <div className="row">
-                        <div className="col-lg-6 offset-lg-6 message-block align-self-center">
-                            <div className="why-us_right-content">
-                                <div className="why-us_heading">Why Choose us</div>
-                                <p className="why-us_text">Jordan Air provides residential heating ventilation, plumbing and air conditioning services. We have provided quality HVAC services and repairs to our community since 1993. </p>
-                                <p className="why-us_text">We offer a wide range of services and products that allow us to maximize our customers' comfort and their homes' efficiency. We specialize in plumbing repair, installation, duct cleaning, HVAC repair, emergency service, and routine maintenance. We also offer weekend and emergency services. </p>
-                                <a href="/about-us/">LEARN MORE ABOUT US &gt;&gt;
-                                    <span className="icon fa fa-angle-double-right"></span>
-                                </a>
+                        <div className="col-lg-6 px-0 position-relative">
+                            <div className="bg-holder"></div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="row">
+                                <div className="col-11 col-sm-10">
+                                    <div className="right-side-text">
+                                        <div className="why-us_heading">Why Choose us</div>
+                                        <p className="why-us_p">Jordan Air provides residential heating ventilation, plumbing and air conditioning services. We have provided quality HVAC services and repairs to our community since 1993. </p>
+                                        <p className="why-us_p">We offer a wide range of services and products that allow us to maximize our customers' comfort and their homes' efficiency. We specialize in plumbing repair, installation, duct cleaning, HVAC repair, emergency service, and routine maintenance. We also offer weekend and emergency services. </p>
+                                        <p className="why-us_p">
+                                            <a href="/about-us/">LEARN MORE ABOUT US
+                                                <span className="icon fa fa-angle-double-right"></span>
+                                            </a>
+                                        </p>
+
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -69,11 +80,15 @@ function BaseContent() {
             <div className="testimonial-wrapper container">
                 <div className="row justify-content-center">
                     <div className="col-12 col-md-2 icon text-center align-self-center">
+                        <span className="fas fa-quote-left"></span>
                     </div>
                     <div className="col-12 col-md-6 col-lg-7 quote align-self-center">
                         <blockquote className="blockquote">
                             <p className="user-quote">"I was very pleased with Zack Goodman. He was professional and thorough, and he offered helpful suggestions. I’m very pleased with your service. The maintenance check every six months gives me peace of mind that my systems are working properly."</p>
-                            <footer className="blockquote-footer"><cite title="Source Title">Jacquelin H.</cite></footer> </blockquote>
+                            <footer className="blockquote-footer">
+                                <cite title="Source Title">Jacquelin H.</cite>
+                            </footer>
+                        </blockquote>
                     </div>
                     <div className="col-12 col-md-4 col-lg-3 text-center btn-cta align-self-center">
                         <a href="/about-us#customer-reviews" className="btn-oval">READ MORE
