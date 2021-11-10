@@ -230,6 +230,12 @@
     transition: all .3s;
 }
 
+.post-end .contact-button:active,
+.post-end .contact-button:hover {
+    background:#00361c;
+    box-shadow: 1px 0 5px #fff;
+}
+
 .post-end .left {
     background-color: #006937;
     color: #fff;
