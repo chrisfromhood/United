@@ -10,11 +10,6 @@
     min-height: 730px;
 }
 
-.full-inner-banner .container {
-    z-index: 1;
-    text-shadow: 0 1px 4px #151515;
-}
-
 .full-inner-banner::before {
     content: "";
     position: absolute;
@@ -53,6 +48,7 @@
     border-radius: 2rem;
     padding: 3rem;
     margin-top: 4rem;
+    text-shadow: 0 1px 4px #151515;
 }
 
 .full-inner-banner .hero-promo .h2 {
@@ -64,9 +60,32 @@
 
 /* BUTTON */
 
-.full-inner-slab-button .text {
+.full-inner-slab-button {
+    display: inline-flex;
+    align-items: center;
+    background: #fff;
+    color: #151515;
+    border-radius: 60px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin-top: 5rem;
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s;
     line-height: 1.2;
+}
+
+.full-inner-slab-button:active,
+.full-inner-slab-button:hover {
+    background: #00361c;
+    color: #fff;
+    box-shadow: 1px 0 5px #fff;
+}
+
+.full-inner-slab-button .text {
     padding-right: .5rem;
+    line-height: 1.2;
 }
 
 .full-inner-slab-button .icon {
@@ -77,26 +96,14 @@
     margin-right: -12px;
 }
 
-.full-inner-slab-button {
-    display: inline-block;
-    background: #fff;
-    color: #151515;
-    border-radius: 60px;
-    font-weight: 600;
-    padding: 0 20px;
-    text-decoration: none;
-    text-transform: uppercase;
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-}
 
-@media (min-width: 992px) {
+
+/* @media (min-width: 992px) {
     .full-inner-banner .full-inner-slab-button {
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 16px;
-}}
+}} */
 
 .full-inner-content .post-content {
     padding: 30px 50px 15px;
