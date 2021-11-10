@@ -134,20 +134,66 @@ function ACInstalations() {
                                         </span>
                                     </a>
                                     <span className="or">OR</span>
-                                    <a data-toggle="collapse" href="#collapseForm" aria-expanded="false" role="button" aria-controls="collapseForm" className="contact-button right collapsed">
+
+                                    <a data-toggle="collapse" href="#collapseForm" data-target="#collapseForm" aria-expanded="false" role="button" aria-controls="collapseForm" className="contact-button right collapsed">
                                         <span className="text">Send Us a Message</span>
                                         <span className="icon circle">
                                             <span className="fas close-arrow fa-arrow-right"></span>
+                                            {/* <span className="fas close-arrow fa-times"></span> */}
                                         </span>
                                     </a>
-                                </div>
 
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div className="form-wrapper collapse" id="collapseForm">
+                            <div className="form-message">
+                                <form>
+                                    <div className="row">
+                                        <div className="message-field">
+                                            <div className="form-group">
+                                                <label className="d-none" for="name">Full Name</label>
+                                                <input type="text" className="form-control height-4" id="name" placeholder="* Full Name" />
+                                                <span className="form-text text-danger"></span>
+                                            </div>
+
+                                            <div className="form-group">
+                                                <label className="d-none" for="email">Email Address</label>
+                                                <input type="email" className="form-control height-4" id="email" placeholder="* Email Address" />
+                                                <span className="form-text text-danger"></span>
+                                            </div>
+
+                                            <div className="form-group">
+                                                <label className="d-none" for="phone">Phone Number</label>
+                                                <input type="tel" className="form-control height-4" id="phone" placeholder="* Phone Number" />
+                                                <span className="form-text text-danger"></span>
+                                            </div>
+
+                                            <div className="form-group">
+                                                <label className="d-none" for="address-zip">Address & Zip Code</label>
+                                                <input type="digits" className="form-control height-4" id="zip-code" placeholder="* Zip Code" />
+                                                <span className="form-text text-danger"></span>
+                                            </div>
+
+                                        </div>
+                                        <div className="message-field">
+                                            <div className="form-group">
+                                                <label className="d-none" for="message">Message</label>
+                                                <textarea className="form-control" id="message" placeholder="How can we help?" rows="5" cols="7"></textarea>
+                                                <span className="form-text"></span>
+                                            </div>
+                                        </div>
+                                        <div className="message-button">
+                                            <button className="btn-normal btn-wide" type="submit">Submit</button>
+                                        </div>
+                                    </div>
+
+
+                                </form>
                             </div>
                         </div>
-                        <div className="collapse form-wrapper">
-
-                        </div>
-
                     </div>
                     <div className="full-inner-testimonial">
                         <div className="row">

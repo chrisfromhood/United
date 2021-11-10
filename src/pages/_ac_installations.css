@@ -291,6 +291,55 @@
     text-transform: uppercase;
 }
 
+/* COLLAPSE MESSAGE-FORM */
+
+.form-wrapper {
+    width: 100%;
+}
+
+.form-message {
+margin-top: 2rem;
+}
+
+.form-message .form-group {
+    margin-bottom: 1.2rem;
+}
+
+.message-field,
+.message-button {
+    width: 100%;
+    padding: 0 1.5rem;
+}
+
+.form-group .form-control {
+    font-size: 1.4rem;
+    color: #333;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    border-radius: 0;
+}
+
+.form-group .height-4 {
+    height: 4rem;
+}
+
+.message-button .btn-normal{
+    width: 100%;
+    text-transform: uppercase;
+    white-space: normal;
+    border: 0;
+    background-color: #b9d8e1;
+    margin-top: 1rem;
+}
+
+.btn-normal:focus, 
+.btn-normal:hover {
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* BIG TESTIMONIAL SECTION  */
 
 .full-inner-testimonial {
     position:relative;
