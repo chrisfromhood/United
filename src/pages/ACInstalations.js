@@ -126,19 +126,22 @@ function ACInstalations() {
                                 <span className="h3">Start Saving Today</span>
                             </div>
                             <div className="col-xl-8 col-12 align-self-center">
-                                <a href="tel:706-995-7485" className="full-inner-slab-button left">
-                                    <span className="text">706-995-7485</span>
-                                    <span className="icon circle">
-                                        <span className="fas fa-phone"></span>
-                                    </span>
-                                </a>
-                                <span className="or">OR</span>
-                                <a data-toggle="collapse" href="#collapseForm" aria-expanded="false" role="button" aria-controls="collapseForm" className="full-inner-slab-button right collapsed">
-                                    <span className="text">Send Us a Message</span>
-                                    <span className="icon circle">
-                                        <span className="fas close-arrow fa-arrow-right"></span>
-                                    </span>
-                                </a>
+                                <div className="wrapper-contact-button">
+                                    <a href="tel:706-995-7485" className="contact-button left">
+                                        <span className="text">706-995-7485</span>
+                                        <span className="icon circle">
+                                            <span className="fas fa-phone"></span>
+                                        </span>
+                                    </a>
+                                    <span className="or">OR</span>
+                                    <a data-toggle="collapse" href="#collapseForm" aria-expanded="false" role="button" aria-controls="collapseForm" className="contact-button right collapsed">
+                                        <span className="text">Send Us a Message</span>
+                                        <span className="icon circle">
+                                            <span className="fas close-arrow fa-arrow-right"></span>
+                                        </span>
+                                    </a>
+                                </div>
+
                             </div>
                         </div>
                         <div className="collapse form-wrapper">

@@ -209,6 +209,66 @@
     font-weight: 300;
 }
 
+/* CONTACT-BUTTONS */
+
+.wrapper-contact-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.post-end .contact-button {
+    display: inline-flex;
+    background: #fff;
+    color: #151515;
+    border-radius: 60px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+.post-end .left {
+    background-color: #006937;
+    color: #fff;
+}
+
+.post-end .circle {
+    text-align: center;
+    background-color: #fff;
+    color: #006937;
+    border-radius: 100%;
+    padding: .5rem 1rem;
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;;
+}
+
+.post-end .icon {
+    margin: .5rem;
+    margin-right: -1.2rem;
+}
+
+.post-end .right {
+    background-color: #fff;
+    margin: 0 1.5rem;
+
+}
+
+.post-end .right .circle {   
+    background-color:#006937;
+    color:#fff;
+}
+
+.post-end .text {
+    display: flex;
+    align-items: center;
+    padding-right: .5rem;
+    line-height: 1.2;
+}
+
 .post-end {
     box-shadow: 1px 6px 20px 0 rgba(0,0,0,17%);
     background-color: #151515;

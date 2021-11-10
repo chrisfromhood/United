@@ -41,10 +41,10 @@ function Header() {
                     <div className="row justify-content-center">
 
                         <nav className="navbar navbar-expand-lg navbar-light ">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                                <span className="navbar-toggler-icon"></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="navbarText">
+                            <div className="collapse navbar-collapse" id="navbarText">
                                 <ul className="nav navbar-nav mx-auto">
                                     <li className="nav-item dropdown">
                                         <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

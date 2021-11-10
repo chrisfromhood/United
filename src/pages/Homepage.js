@@ -45,7 +45,7 @@ function Homepage() {
             <div className="col-lg-8 col-md-12 align-self-center">
               <div className="promo-content">
                 <div className="promo-content-icon">
-                  <span class="fas fa-tags"></span>
+                  <span className="fas fa-tags"></span>
                 </div>
                 <div className="heading">Take advantage of our new promotion</div>
                 <div className="sub-heading">0% FINANCING FOR 72 MONTHS ON NEW SYSTEMS</div>
