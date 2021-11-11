@@ -96,8 +96,6 @@
     margin-right: -12px;
 }
 
-
-
 /* @media (min-width: 992px) {
     .full-inner-banner .full-inner-slab-button {
     margin-top: 50px;
@@ -115,6 +113,11 @@
 .full-inner-content .post-content .post-header {
     text-align: center;
     margin-bottom: 0;
+}
+
+.full-inner-content .post-content .post-header p {
+    max-width: 750px;
+    margin: 0 auto 30px;
 }
 
 .post-header {
@@ -190,6 +193,7 @@
     margin-top: 2rem;
     line-height: 1.25;
     font-size: 1.7em;
+    font-weight: 800;
 }
 
 .post-content .jumbotron .list-items {
@@ -207,6 +211,17 @@
     list-style: none;
     margin-top: 5px;
     font-weight: 300;
+}
+
+.post-content .jumbotron .list-items .list li strong {
+    font-weight: 700;
+}
+
+.post-content .h3, 
+.post-content h3 {
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
 }
 
 /* CONTACT-BUTTONS */
@@ -234,6 +249,23 @@
 .post-end .contact-button:hover {
     background:#00361c;
     box-shadow: 1px 0 5px #fff;
+    color: #fff;
+}
+
+.contact-button.right .fa-arrow-right {
+    display: none;
+}
+
+.contact-button.right .fa-times {
+    display: inline-flex;
+}
+
+.contact-button.right.collapsed .fa-times {
+    display: none;
+}
+
+.contact-button.right.collapsed .fa-arrow-right{
+    display: inline-flex;
 }
 
 .post-end .left {

@@ -45,6 +45,9 @@ function ACInstalations() {
                                     <a className="nav-link" href="#specs-info" data-toggle="pill" aria-controls="specs-info" aria-selected="false">Air Conditioner Specifications</a>
                                 </li>
                             </ul>
+
+                            {/* <!-- Savings & Free Offers TAB --> */}
+
                             <div className="tab-content" id="pills-tabContent">
                                 <div className="tab-pane show active" id="savings-offers">
                                     <img data-src="https://cdn.searchkings.ca/img/post-inner-full/savings-free-offers-tab-4b7dcd06eb.jpg" className="img-fluid tab-image lazy loaded" alt="Air Conditioner Installations" src="https://cdn.searchkings.ca/img/post-inner-full/savings-free-offers-tab-4b7dcd06eb.jpg" data-was-processed="true" />
@@ -57,6 +60,9 @@ function ACInstalations() {
                                         </ul>
                                     </div>
                                 </div>
+
+                                {/* <!-- Warranty & Maintenance TAB -->  */}
+
                                 <div className="tab-pane show" id="warranty-maintenance">
                                     <img data-src="https://cdn.searchkings.ca/img/post-inner-full/ac-maintenance-tab-a6ac158200.jpg" className="img-fluid tab-image lazy loaded" alt="Air Conditioner Installations" src="https://cdn.searchkings.ca/img/post-inner-full/ac-maintenance-tab-a6ac158200.jpg" data-was-processed="true" />
                                     <p>To protect you from surprise breakdowns and costly repairs, we provide a comprehensive maintenance package backed up by both parts &amp; labor warranties.</p>
@@ -93,6 +99,9 @@ function ACInstalations() {
                                     <p>Regular air conditioner tune-ups and safety checks will ensure your system is running efficiently, saving you money on monthly cooling bills.</p>
                                     <p>A thorough maintenance plan completed by licensed and certified technicians also secures the longevity of your air conditioner, providing you peace-of-mind.</p>
                                 </div>
+
+                                {/* <!-- Air Conditioner Specifications TAB --> */}
+
                                 <div className="tab-pane show" id="specs-info">
                                     <img data-src="https://cdn.searchkings.ca/img/post-inner-full/ac-specs-tab-064df7bf1f.jpg" className="img-fluid tab-image lazy loaded" alt="Air Conditioner Installations" src="https://cdn.searchkings.ca/img/post-inner-full/ac-specs-tab-064df7bf1f.jpg" data-was-processed="true" />
                                     <h3>What size air conditioner do I need?</h3>
@@ -103,11 +112,11 @@ function ACInstalations() {
                                     <p>As a general rule, you can multiply your home’s square footage by 25 to roughly estimate the size of air conditioner you require. On average a 2,500 sq/ft home needs a unit with 62,500 BUs, but there are many other factors that need to be considered, such as:</p>
                                     <div className="jumbotron big-list">
                                         <ul className="list fa-ul">
-                                            <li><span className="fa-li fas fa-toolbox"></span>Age of Home</li>
-                                            <li><span className="fa-li fas fa-toolbox"></span>Number of Windows</li>
-                                            <li><span className="fa-li fas fa-toolbox"></span>Room Sizes</li>
-                                            <li><span className="fa-li fas fa-toolbox"></span>Average Climate</li>
-                                            <li><span className="fa-li fas fa-toolbox"></span>Building Insulation</li>
+                                            <li><span className="fa-li fas fa-home"></span>Age of Home</li>
+                                            <li><span className="fa-li fas fa-clipboard-list"></span>Number of Windows</li>
+                                            <li><span className="fa-li fas fa-ruler"></span>Room Sizes</li>
+                                            <li><span className="fa-li fas fa-thermometer-half"></span>Average Climate</li>
+                                            <li><span className="fa-li fas fa-layer-group"></span>Building Insulation</li>
                                         </ul>
                                     </div>
                                     <p>Based on these factors and more, our experienced team of cooling technicians can determine the perfect size air conditioner for your home.</p>
@@ -139,7 +148,7 @@ function ACInstalations() {
                                         <span className="text">Send Us a Message</span>
                                         <span className="icon circle">
                                             <span className="fas close-arrow fa-arrow-right"></span>
-                                            {/* <span className="fas close-arrow fa-times"></span> */}
+                                            <span className="fas close-arrow fa-times"></span>
                                         </span>
                                     </a>
 
