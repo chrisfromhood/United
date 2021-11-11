@@ -47,8 +47,8 @@ function Header() {
                             <div className="collapse navbar-collapse" id="navbarText">
                                 <ul className="nav navbar-nav mx-auto">
                                     <li className="nav-item dropdown">
-                                        <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            SALES
+                                        <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SALES
+                                            <span className="fas fa-chevron-down"></span>
                                         </a>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <a className="dropdown-item nav-link" href="http://localhost:3000/ac-installations">AIR CONDITIONER INSTALLATIONS</a>
@@ -59,19 +59,28 @@ function Header() {
                                     <li className="nav-item dropdown">
                                         <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             REPAIRS
+                                            <span className="fas fa-chevron-down"></span>
                                         </a>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a className="dropdown-item" href="/">Action</a>
-                                            <a className="dropdown-item" href="/">Another action</a>
+                                            <a className="dropdown-item nav-link" href="http://localhost:3000/ac-installations">AIR CONDITIONERS</a>
+                                            <a className="dropdown-item nav-link" href="/">FURNACES</a>
+                                            <a className="dropdown-item nav-link" href="/">Heat pumps</a>
+                                            <a className="dropdown-item nav-link" href="/">Ductless Systems</a>
+                                            <a className="dropdown-item nav-link" href="/">Air Handlers</a>
+                                            <a className="dropdown-item nav-link" href="/">Indoor Air Quality</a>
                                         </div>
                                     </li>
                                     <li className="nav-item dropdown">
                                         <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             PLUMBING
+                                            <span className="fas fa-chevron-down"></span>
                                         </a>
                                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a className="dropdown-item" href="/">Action</a>
-                                            <a className="dropdown-item" href="/">Another action</a>
+                                            <a className="dropdown-item nav-link" href="/">General plumbing</a>
+                                            <a className="dropdown-item nav-link" href="/">Toilet Repair</a>
+                                            <a className="dropdown-item nav-link" href="/">Faucet & sink repair</a>
+                                            <a className="dropdown-item nav-link" href="/">Shower repair</a>
+                                            <a className="dropdown-item nav-link" href="/">Leak Detection</a>
                                         </div>
                                     </li>
                                     <li className="nav-item">
